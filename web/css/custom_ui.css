@@ -1,0 +1,16 @@
+/*Override brootstrap*/
+.navbar-nav>.active>a,.navbar-nav>.active>a:hover,.navbar-nav>.active>a:focus
+  {
+  color: rgb(255, 255, 255) !important;
+  background-color: rgb(80, 196, 159) !important;
+}
+/*Override brootstrap*/
+.navbar-color {
+  background-color: rgb(255, 255, 255) !important;
+}
+.navbar-nav {
+  font-family: 'proxima-nova', Proxima Nova, 'Helvetica Neue', Helvetica,
+    sans-serif;
+  font-size: 16px !important;
+  line-height: 1.42857;
+ }

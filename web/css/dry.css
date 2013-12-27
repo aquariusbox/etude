@@ -1,0 +1,67 @@
+/** Add css rules here for your application. */
+body {
+  padding-top: 30px;
+  background-color: rgb(255, 255, 255);
+  margin: 0px;
+}
+
+/** START - CSS for google map background. */
+body header {
+  background: #000;
+  height: 400px;
+  text-align: left;
+  color: #000;
+  padding: 200px 0 0;
+  position: relative
+}
+
+body header .background {
+  /*background: url('img/photo.jpg') no-repeat scroll 50% 65% cover transparent;*/
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 0;
+  opacity: 1;
+  /*background: url('img/photo.jpg') no-repeat scroll 50% 65% transparent;
+  background-size: 100% 100%; */
+}
+
+/*Override brootstrap*/
+.nav > li > a,.navbar > div > .navbar-header > a {
+   font-size: 16px;
+   color: #3B393A;
+ }
+
+/*Override brootstrap*/
+.navbar-color {
+  background-color: rgb(255, 255, 255) !important;
+}
+
+body header h1 {
+  font-size: 4rem;
+  font-weight: 600;
+}
+body header p {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+body header .container {
+  z-index: 100;
+  position: relative;
+}
+
+.h-color {
+  color: rgb(51,51,51);
+ } 
+ 
+ .anchor-top{
+    font-size: 1em;
+ } 
+ .hidden {
+   display:none;
+ } 
+
+/** END - CSS for google map background. */

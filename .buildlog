@@ -1,0 +1,2642 @@
+---
+build.dart --machine --changed=pubspec.yaml
+Unable to open file: C:\Users\CHANRO3\dart\etude\packages\web_ui\component_build.dart'file:///C:/Users/CHANRO3/dart/etude/build.dart': error: line 2 pos 1: library handler failed
+import 'package:web_ui/component_build.dart';
+^
+build.dart finished [576 ms]
+
+---
+build.dart --machine --changed=web\md_of_rules.html
+
+build.dart finished [156 ms]
+
+---
+build.dart --machine --changed=web\md_of_rules.html
+
+build.dart finished [153 ms]
+
+---
+build.dart --machine --changed=web\dartscripts\pages\dry.dart
+
+build.dart finished [154 ms]
+
+---
+build.dart --machine --changed=web\dartscripts\pages\md_of_rules.dart
+
+build.dart finished [151 ms]
+
+---
+build.dart --machine --changed=web\dartscripts\pages\matrix_of_rules.dart
+
+build.dart finished [152 ms]
+
+---
+build.dart --machine --changed=web\dartscripts\pages\md_of_rules.dart.js --changed=web\dartscripts\pages\md_of_...
+
+build.dart finished [160 ms]
+
+---
+build.dart --machine --changed=web\dartscripts\pages\matrix_of_rules.dart.js --changed=web\dartscripts\pages\ma...
+
+build.dart finished [149 ms]
+
+---
+build.dart --machine --changed=web\dartscripts\pages\dry.dart.js --changed=web\dartscripts\pages\dry.dart.js.de...
+
+build.dart finished [147 ms]
+
+---
+build.dart --machine --changed=web\dartscripts\pages\dry.dart.js --changed=web\dartscripts\pages\dry.dart.js.de...
+
+build.dart finished [148 ms]
+
+---
+build.dart --machine --changed=web\dartscripts\pages\dry.dart
+
+build.dart finished [154 ms]
+
+---
+build.dart --machine --changed=web\dartscripts\pages\dry.dart
+
+build.dart finished [147 ms]
+
+---
+build.dart --machine --removed=web\dartscripts\pages\dry.dart.js --removed=web\dartscripts\pages\dry.dart.js.de...
+
+build.dart finished [147 ms]
+
+---
+build.dart --machine --removed=web\dartscripts\pages\dry.dart.precompiled.js
+
+build.dart finished [146 ms]
+
+---
+build.dart --machine --changed=web\dartscripts\pages\dry.dart.js --changed=web\dartscripts\pages\dry.dart.js.de...
+
+build.dart finished [281 ms]
+
+---
+build.dart --machine --changed=web\dartscripts\pages\dry.dart
+
+build.dart finished [147 ms]
+
+---
+build.dart --machine --changed=web\dartscripts\pages\dry.dart
+
+build.dart finished [146 ms]
+
+---
+build.dart --machine --changed=web\dartscripts\pages\dry.dart.js --changed=web\dartscripts\pages\dry.dart.js.de...
+
+build.dart finished [170 ms]
+
+---
+build.dart --machine --changed=web\dartscripts\pages\dry.dart
+
+build.dart finished [147 ms]
+
+---
+build.dart --machine --changed=web\dartscripts\pages\dry.dart
+
+build.dart finished [144 ms]
+
+---
+build.dart --machine --changed=web\dartscripts\pages\dry.dart
+
+build.dart finished [148 ms]
+
+---
+build.dart --machine --changed=web\dartscripts\pages\dry.dart
+
+build.dart finished [159 ms]
+
+---
+build.dart --machine --changed=web\dartscripts\pages\dry.dart
+
+build.dart finished [150 ms]
+
+---
+build.dart --machine --changed=web\dartscripts\pages\dry.dart
+
+build.dart finished [148 ms]
+
+---
+build.dart --machine --changed=web\dartscripts\pages\dry.dart
+
+build.dart finished [147 ms]
+
+---
+build.dart --machine --changed=web\dartscripts\pages\dry.dart.js --changed=web\dartscripts\pages\dry.dart.js.de...
+
+build.dart finished [152 ms]
+
+---
+build.dart --machine --changed=web\dartscripts\pages\dry.dart
+
+build.dart finished [156 ms]
+
+---
+build.dart --machine --removed=build1.dart
+
+build.dart finished [146 ms]
+
+---
+build.dart --machine --changed=pubspec.yaml
+Unable to open file: C:\Users\CHANRO3\dart\etude\packages\web_components\component_build.dart'file:///C:/Users/CHANRO3/dart/etude/build.dart': error: line 1 pos 2: library handler failed
+ import 'package:web_components/component_build.dart';  
+ ^
+build.dart finished [143 ms]
+
+---
+build.dart --machine --changed=pubspec.yaml
+Unable to open file: C:\Users\CHANRO3\dart\etude\packages\web_components\component_build.dart'file:///C:/Users/CHANRO3/dart/etude/build.dart': error: line 1 pos 2: library handler failed
+ import 'package:web_components/component_build.dart';  
+ ^
+build.dart finished [132 ms]
+
+---
+build.dart --machine --full
+Unable to open file: C:\Users\CHANRO3\dart\etude\packages\web_ui\component_build.dart'file:///C:/Users/CHANRO3/dart/etude/build.dart': error: line 1 pos 2: library handler failed
+ import 'package:web_ui/component_build.dart';  
+ ^
+build.dart finished [134 ms]
+
+---
+build.dart --machine --changed=pubspec.yaml
+Unable to open file: C:\Users\CHANRO3\dart\etude\packages\web_ui\component_build.dart'file:///C:/Users/CHANRO3/dart/etude/build.dart': error: line 1 pos 2: library handler failed
+ import 'package:web_ui/component_build.dart';  
+ ^
+build.dart finished [145 ms]
+
+---
+build.dart --machine --changed=pubspec.yaml
+Unable to open file: C:\Users\CHANRO3\dart\etude\packages\web_ui\component_build.dart'file:///C:/Users/CHANRO3/dart/etude/build.dart': error: line 1 pos 2: library handler failed
+ import 'package:web_ui/component_build.dart';  
+ ^
+build.dart finished [133 ms]
+
+---
+build.dart --machine --changed=pubspec.yaml
+Unhandled exception:
+'file:///C:/Users/CHANRO3/dart/etude/build.dart': malformed type: line 5 pos 13: type 'Options' is not loaded
+  build(new Options().arguments, ['web/App.html']);  
+            ^
+type error.
+#0      main (file:///C:/Users/CHANRO3/dart/etude/build.dart:5:13)
+#1      _startIsolate.isolateStartHandler (dart:isolate-patch/isolate_patch.dart:217)
+#2      _RawReceivePortImpl._handleMessage (dart:isolate-patch/isolate_patch.dart:116)
+build.dart finished [1147 ms]
+
+---
+build.dart --machine --changed=web\dartscripts\pages\dry.dart
+[{"method":"warning","params":{"file":null,"message":"expected :, but found {","line":5381,"charStart":108920,"charEnd":108921}}]
+[{"method":"warning","params":{"file":null,"message":"expected {, but found ;","line":5382,"charStart":108943,"charEnd":108944}}]
+[{"method":"warning","params":{"file":null,"message":"expected } after ruleset for @media","line":5385,"charStart":108988,"charEnd":108989}}]
+[{"method":"warning","params":{"file":null,"message":"expected :, but found {","line":5385,"charStart":109002,"charEnd":109003}}]
+[{"method":"warning","params":{"file":null,"message":"premature end of file unknown CSS","line":5386,"charStart":109015,"charEnd":109018}}]
+Total time spent on web/dry.html                             -- 1236 ms
+[{"method":"generated","params":{"file":"web\\out\\dartscripts\\pages\\dry.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\dartscripts\\pages\\dry.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\dry.html_bootstrap.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\css\\dry.css"}}]
+[{"method":"generated","params":{"file":"web\\out\\css\\custom_ui.css"}}]
+[{"method":"generated","params":{"file":"web\\out\\css\\bootstrap.css"}}]
+[{"method":"mapping","params":{"from":"web/dry.html","to":"web\\out\\dry.html"}}]
+[{"method":"generated","params":{"file":"web\\out\\dry.html"}}]
+[{"method":"warning","params":{"file":null,"message":"expected :, but found {","line":5381,"charStart":108920,"charEnd":108921}}]
+[{"method":"warning","params":{"file":null,"message":"expected {, but found ;","line":5382,"charStart":108943,"charEnd":108944}}]
+[{"method":"warning","params":{"file":null,"message":"expected } after ruleset for @media","line":5385,"charStart":108988,"charEnd":108989}}]
+[{"method":"warning","params":{"file":null,"message":"expected :, but found {","line":5385,"charStart":109002,"charEnd":109003}}]
+[{"method":"warning","params":{"file":null,"message":"premature end of file unknown CSS","line":5386,"charStart":109015,"charEnd":109018}}]
+Total time spent on web/md_of_rules.html                     -- 371 ms
+[{"method":"generated","params":{"file":"web\\out\\dartscripts\\pages\\md_of_rules.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\dartscripts\\pages\\md_of_rules.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\md_of_rules.html_bootstrap.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\css\\dry.css"}}]
+[{"method":"generated","params":{"file":"web\\out\\css\\custom_ui.css"}}]
+[{"method":"generated","params":{"file":"web\\out\\css\\bootstrap.css"}}]
+[{"method":"generated","params":{"file":"web\\out\\css\\md_of_rules.css"}}]
+[{"method":"generated","params":{"file":"web\\out\\css\\960.css"}}]
+[{"method":"generated","params":{"file":"web\\out\\css\\defaultTheme.css"}}]
+[{"method":"generated","params":{"file":"web\\out\\css\\myTheme.css"}}]
+[{"method":"generated","params":{"file":"web\\out\\css\\prettify.css"}}]
+[{"method":"mapping","params":{"from":"web/md_of_rules.html","to":"web\\out\\md_of_rules.html"}}]
+[{"method":"generated","params":{"file":"web\\out\\md_of_rules.html"}}]
+[{"method":"warning","params":{"file":null,"message":"expected :, but found {","line":5381,"charStart":108920,"charEnd":108921}}]
+[{"method":"warning","params":{"file":null,"message":"expected {, but found ;","line":5382,"charStart":108943,"charEnd":108944}}]
+[{"method":"warning","params":{"file":null,"message":"expected } after ruleset for @media","line":5385,"charStart":108988,"charEnd":108989}}]
+[{"method":"warning","params":{"file":null,"message":"expected :, but found {","line":5385,"charStart":109002,"charEnd":109003}}]
+[{"method":"warning","params":{"file":null,"message":"premature end of file unknown CSS","line":5386,"charStart":109015,"charEnd":109018}}]
+Total time spent on web/matrix_of_rules.html                 -- 207 ms
+[{"method":"generated","params":{"file":"web\\out\\dartscripts\\pages\\matrix_of_rules.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\dartscripts\\pages\\matrix_of_rules.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\matrix_of_rules.html_bootstrap.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\css\\dry.css"}}]
+[{"method":"generated","params":{"file":"web\\out\\css\\custom_ui.css"}}]
+[{"method":"generated","params":{"file":"web\\out\\css\\bootstrap.css"}}]
+[{"method":"generated","params":{"file":"web\\out\\css\\matrix_of_rules.css"}}]
+[{"method":"generated","params":{"file":"web\\out\\css\\960.css"}}]
+[{"method":"generated","params":{"file":"web\\out\\css\\defaultTheme.css"}}]
+[{"method":"generated","params":{"file":"web\\out\\css\\myTheme.css"}}]
+[{"method":"generated","params":{"file":"web\\out\\css\\prettify.css"}}]
+[{"method":"mapping","params":{"from":"web/matrix_of_rules.html","to":"web\\out\\matrix_of_rules.html"}}]
+[{"method":"generated","params":{"file":"web\\out\\matrix_of_rules.html"}}]
+Total time                                                   -- 1844 ms
+build.dart finished [2185 ms]
+
+---
+build.dart --machine --changed=web\dartscripts\pages\matrix_of_rules.dart
+[{"method":"warning","params":{"file":null,"message":"expected :, but found {","line":5381,"charStart":108920,"charEnd":108921}}]
+[{"method":"warning","params":{"file":null,"message":"expected {, but found ;","line":5382,"charStart":108943,"charEnd":108944}}]
+[{"method":"warning","params":{"file":null,"message":"expected } after ruleset for @media","line":5385,"charStart":108988,"charEnd":108989}}]
+[{"method":"warning","params":{"file":null,"message":"expected :, but found {","line":5385,"charStart":109002,"charEnd":109003}}]
+[{"method":"warning","params":{"file":null,"message":"premature end of file unknown CSS","line":5386,"charStart":109015,"charEnd":109018}}]
+Total time spent on web/dry.html                             -- 1173 ms
+[{"method":"generated","params":{"file":"web\\out\\dartscripts\\pages\\dry.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\dartscripts\\pages\\dry.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\dry.html_bootstrap.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\css\\dry.css"}}]
+[{"method":"generated","params":{"file":"web\\out\\css\\custom_ui.css"}}]
+[{"method":"generated","params":{"file":"web\\out\\css\\bootstrap.css"}}]
+[{"method":"mapping","params":{"from":"web/dry.html","to":"web\\out\\dry.html"}}]
+[{"method":"generated","params":{"file":"web\\out\\dry.html"}}]
+[{"method":"warning","params":{"file":null,"message":"expected :, but found {","line":5381,"charStart":108920,"charEnd":108921}}]
+[{"method":"warning","params":{"file":null,"message":"expected {, but found ;","line":5382,"charStart":108943,"charEnd":108944}}]
+[{"method":"warning","params":{"file":null,"message":"expected } after ruleset for @media","line":5385,"charStart":108988,"charEnd":108989}}]
+[{"method":"warning","params":{"file":null,"message":"expected :, but found {","line":5385,"charStart":109002,"charEnd":109003}}]
+[{"method":"warning","params":{"file":null,"message":"premature end of file unknown CSS","line":5386,"charStart":109015,"charEnd":109018}}]
+Total time spent on web/md_of_rules.html                     -- 366 ms
+[{"method":"generated","params":{"file":"web\\out\\dartscripts\\pages\\md_of_rules.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\dartscripts\\pages\\md_of_rules.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\md_of_rules.html_bootstrap.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\css\\dry.css"}}]
+[{"method":"generated","params":{"file":"web\\out\\css\\bootstrap.css"}}]
+[{"method":"generated","params":{"file":"web\\out\\css\\md_of_rules.css"}}]
+[{"method":"generated","params":{"file":"web\\out\\css\\custom_ui.css"}}]
+[{"method":"generated","params":{"file":"web\\out\\css\\960.css"}}]
+[{"method":"generated","params":{"file":"web\\out\\css\\defaultTheme.css"}}]
+[{"method":"generated","params":{"file":"web\\out\\css\\myTheme.css"}}]
+[{"method":"generated","params":{"file":"web\\out\\css\\prettify.css"}}]
+[{"method":"mapping","params":{"from":"web/md_of_rules.html","to":"web\\out\\md_of_rules.html"}}]
+[{"method":"generated","params":{"file":"web\\out\\md_of_rules.html"}}]
+[{"method":"warning","params":{"file":null,"message":"expected :, but found {","line":5381,"charStart":108920,"charEnd":108921}}]
+[{"method":"warning","params":{"file":null,"message":"expected {, but found ;","line":5382,"charStart":108943,"charEnd":108944}}]
+[{"method":"warning","params":{"file":null,"message":"expected } after ruleset for @media","line":5385,"charStart":108988,"charEnd":108989}}]
+[{"method":"warning","params":{"file":null,"message":"expected :, but found {","line":5385,"charStart":109002,"charEnd":109003}}]
+[{"method":"warning","params":{"file":null,"message":"premature end of file unknown CSS","line":5386,"charStart":109015,"charEnd":109018}}]
+Total time spent on web/matrix_of_rules.html                 -- 204 ms
+[{"method":"generated","params":{"file":"web\\out\\dartscripts\\pages\\matrix_of_rules.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\dartscripts\\pages\\matrix_of_rules.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\matrix_of_rules.html_bootstrap.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\css\\dry.css"}}]
+[{"method":"generated","params":{"file":"web\\out\\css\\defaultTheme.css"}}]
+[{"method":"generated","params":{"file":"web\\out\\css\\myTheme.css"}}]
+[{"method":"generated","params":{"file":"web\\out\\css\\prettify.css"}}]
+[{"method":"generated","params":{"file":"web\\out\\css\\960.css"}}]
+[{"method":"generated","params":{"file":"web\\out\\css\\bootstrap.css"}}]
+[{"method":"generated","params":{"file":"web\\out\\css\\custom_ui.css"}}]
+[{"method":"generated","params":{"file":"web\\out\\css\\matrix_of_rules.css"}}]
+[{"method":"mapping","params":{"from":"web/matrix_of_rules.html","to":"web\\out\\matrix_of_rules.html"}}]
+[{"method":"generated","params":{"file":"web\\out\\matrix_of_rules.html"}}]
+Total time                                                   -- 1776 ms
+build.dart finished [2221 ms]
+
+---
+build.dart --machine --changed=web\dartscripts\pages\md_of_rules.dart
+[{"method":"warning","params":{"file":null,"message":"expected :, but found {","line":5381,"charStart":108920,"charEnd":108921}}]
+[{"method":"warning","params":{"file":null,"message":"expected {, but found ;","line":5382,"charStart":108943,"charEnd":108944}}]
+[{"method":"warning","params":{"file":null,"message":"expected } after ruleset for @media","line":5385,"charStart":108988,"charEnd":108989}}]
+[{"method":"warning","params":{"file":null,"message":"expected :, but found {","line":5385,"charStart":109002,"charEnd":109003}}]
+[{"method":"warning","params":{"file":null,"message":"premature end of file unknown CSS","line":5386,"charStart":109015,"charEnd":109018}}]
+Total time spent on web/dry.html                             -- 1108 ms
+[{"method":"generated","params":{"file":"web\\out\\dartscripts\\pages\\dry.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\dartscripts\\pages\\dry.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\dry.html_bootstrap.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\css\\dry.css"}}]
+[{"method":"generated","params":{"file":"web\\out\\css\\custom_ui.css"}}]
+[{"method":"generated","params":{"file":"web\\out\\css\\bootstrap.css"}}]
+[{"method":"mapping","params":{"from":"web/dry.html","to":"web\\out\\dry.html"}}]
+[{"method":"generated","params":{"file":"web\\out\\dry.html"}}]
+[{"method":"warning","params":{"file":null,"message":"expected :, but found {","line":5381,"charStart":108920,"charEnd":108921}}]
+[{"method":"warning","params":{"file":null,"message":"expected {, but found ;","line":5382,"charStart":108943,"charEnd":108944}}]
+[{"method":"warning","params":{"file":null,"message":"expected } after ruleset for @media","line":5385,"charStart":108988,"charEnd":108989}}]
+[{"method":"warning","params":{"file":null,"message":"expected :, but found {","line":5385,"charStart":109002,"charEnd":109003}}]
+[{"method":"warning","params":{"file":null,"message":"premature end of file unknown CSS","line":5386,"charStart":109015,"charEnd":109018}}]
+Total time spent on web/md_of_rules.html                     -- 340 ms
+[{"method":"generated","params":{"file":"web\\out\\dartscripts\\pages\\md_of_rules.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\dartscripts\\pages\\md_of_rules.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\md_of_rules.html_bootstrap.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\css\\dry.css"}}]
+[{"method":"generated","params":{"file":"web\\out\\css\\custom_ui.css"}}]
+[{"method":"generated","params":{"file":"web\\out\\css\\md_of_rules.css"}}]
+[{"method":"generated","params":{"file":"web\\out\\css\\bootstrap.css"}}]
+[{"method":"generated","params":{"file":"web\\out\\css\\960.css"}}]
+[{"method":"generated","params":{"file":"web\\out\\css\\defaultTheme.css"}}]
+[{"method":"generated","params":{"file":"web\\out\\css\\myTheme.css"}}]
+[{"method":"generated","params":{"file":"web\\out\\css\\prettify.css"}}]
+[{"method":"mapping","params":{"from":"web/md_of_rules.html","to":"web\\out\\md_of_rules.html"}}]
+[{"method":"generated","params":{"file":"web\\out\\md_of_rules.html"}}]
+[{"method":"warning","params":{"file":null,"message":"expected :, but found {","line":5381,"charStart":108920,"charEnd":108921}}]
+[{"method":"warning","params":{"file":null,"message":"expected {, but found ;","line":5382,"charStart":108943,"charEnd":108944}}]
+[{"method":"warning","params":{"file":null,"message":"expected } after ruleset for @media","line":5385,"charStart":108988,"charEnd":108989}}]
+[{"method":"warning","params":{"file":null,"message":"expected :, but found {","line":5385,"charStart":109002,"charEnd":109003}}]
+[{"method":"warning","params":{"file":null,"message":"premature end of file unknown CSS","line":5386,"charStart":109015,"charEnd":109018}}]
+Total time spent on web/matrix_of_rules.html                 -- 226 ms
+[{"method":"generated","params":{"file":"web\\out\\dartscripts\\pages\\matrix_of_rules.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\dartscripts\\pages\\matrix_of_rules.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\matrix_of_rules.html_bootstrap.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\css\\dry.css"}}]
+[{"method":"generated","params":{"file":"web\\out\\css\\matrix_of_rules.css"}}]
+[{"method":"generated","params":{"file":"web\\out\\css\\bootstrap.css"}}]
+[{"method":"generated","params":{"file":"web\\out\\css\\960.css"}}]
+[{"method":"generated","params":{"file":"web\\out\\css\\myTheme.css"}}]
+[{"method":"generated","params":{"file":"web\\out\\css\\custom_ui.css"}}]
+[{"method":"generated","params":{"file":"web\\out\\css\\prettify.css"}}]
+[{"method":"generated","params":{"file":"web\\out\\css\\defaultTheme.css"}}]
+[{"method":"mapping","params":{"from":"web/matrix_of_rules.html","to":"web\\out\\matrix_of_rules.html"}}]
+[{"method":"generated","params":{"file":"web\\out\\matrix_of_rules.html"}}]
+Total time                                                   -- 1707 ms
+build.dart finished [2027 ms]
+
+---
+build.dart --machine --changed=web\dartscripts\pages\dry.dart
+[{"method":"warning","params":{"file":null,"message":"expected :, but found {","line":5381,"charStart":108920,"charEnd":108921}}]
+[{"method":"warning","params":{"file":null,"message":"expected {, but found ;","line":5382,"charStart":108943,"charEnd":108944}}]
+[{"method":"warning","params":{"file":null,"message":"expected } after ruleset for @media","line":5385,"charStart":108988,"charEnd":108989}}]
+[{"method":"warning","params":{"file":null,"message":"expected :, but found {","line":5385,"charStart":109002,"charEnd":109003}}]
+[{"method":"warning","params":{"file":null,"message":"premature end of file unknown CSS","line":5386,"charStart":109015,"charEnd":109018}}]
+Total time spent on web/dry.html                             -- 1116 ms
+[{"method":"generated","params":{"file":"web\\out\\dartscripts\\pages\\dry.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\dartscripts\\pages\\dry.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\dry.html_bootstrap.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\css\\dry.css"}}]
+[{"method":"generated","params":{"file":"web\\out\\css\\custom_ui.css"}}]
+[{"method":"generated","params":{"file":"web\\out\\css\\bootstrap.css"}}]
+[{"method":"mapping","params":{"from":"web/dry.html","to":"web\\out\\dry.html"}}]
+[{"method":"generated","params":{"file":"web\\out\\dry.html"}}]
+[{"method":"warning","params":{"file":null,"message":"expected :, but found {","line":5381,"charStart":108920,"charEnd":108921}}]
+[{"method":"warning","params":{"file":null,"message":"expected {, but found ;","line":5382,"charStart":108943,"charEnd":108944}}]
+[{"method":"warning","params":{"file":null,"message":"expected } after ruleset for @media","line":5385,"charStart":108988,"charEnd":108989}}]
+[{"method":"warning","params":{"file":null,"message":"expected :, but found {","line":5385,"charStart":109002,"charEnd":109003}}]
+[{"method":"warning","params":{"file":null,"message":"premature end of file unknown CSS","line":5386,"charStart":109015,"charEnd":109018}}]
+Total time spent on web/md_of_rules.html                     -- 344 ms
+[{"method":"generated","params":{"file":"web\\out\\dartscripts\\pages\\md_of_rules.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\dartscripts\\pages\\md_of_rules.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\md_of_rules.html_bootstrap.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\css\\dry.css"}}]
+[{"method":"generated","params":{"file":"web\\out\\css\\custom_ui.css"}}]
+[{"method":"generated","params":{"file":"web\\out\\css\\bootstrap.css"}}]
+[{"method":"generated","params":{"file":"web\\out\\css\\md_of_rules.css"}}]
+[{"method":"generated","params":{"file":"web\\out\\css\\960.css"}}]
+[{"method":"generated","params":{"file":"web\\out\\css\\defaultTheme.css"}}]
+[{"method":"generated","params":{"file":"web\\out\\css\\myTheme.css"}}]
+[{"method":"generated","params":{"file":"web\\out\\css\\prettify.css"}}]
+[{"method":"mapping","params":{"from":"web/md_of_rules.html","to":"web\\out\\md_of_rules.html"}}]
+[{"method":"generated","params":{"file":"web\\out\\md_of_rules.html"}}]
+[{"method":"warning","params":{"file":null,"message":"expected :, but found {","line":5381,"charStart":108920,"charEnd":108921}}]
+[{"method":"warning","params":{"file":null,"message":"expected {, but found ;","line":5382,"charStart":108943,"charEnd":108944}}]
+[{"method":"warning","params":{"file":null,"message":"expected } after ruleset for @media","line":5385,"charStart":108988,"charEnd":108989}}]
+[{"method":"warning","params":{"file":null,"message":"expected :, but found {","line":5385,"charStart":109002,"charEnd":109003}}]
+[{"method":"warning","params":{"file":null,"message":"premature end of file unknown CSS","line":5386,"charStart":109015,"charEnd":109018}}]
+Total time spent on web/matrix_of_rules.html                 -- 201 ms
+[{"method":"generated","params":{"file":"web\\out\\dartscripts\\pages\\matrix_of_rules.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\dartscripts\\pages\\matrix_of_rules.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\matrix_of_rules.html_bootstrap.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\css\\dry.css"}}]
+[{"method":"generated","params":{"file":"web\\out\\css\\custom_ui.css"}}]
+[{"method":"generated","params":{"file":"web\\out\\css\\bootstrap.css"}}]
+[{"method":"generated","params":{"file":"web\\out\\css\\matrix_of_rules.css"}}]
+[{"method":"generated","params":{"file":"web\\out\\css\\960.css"}}]
+[{"method":"generated","params":{"file":"web\\out\\css\\defaultTheme.css"}}]
+[{"method":"generated","params":{"file":"web\\out\\css\\myTheme.css"}}]
+[{"method":"generated","params":{"file":"web\\out\\css\\prettify.css"}}]
+[{"method":"mapping","params":{"from":"web/matrix_of_rules.html","to":"web\\out\\matrix_of_rules.html"}}]
+[{"method":"generated","params":{"file":"web\\out\\matrix_of_rules.html"}}]
+Total time                                                   -- 1692 ms
+build.dart finished [2010 ms]
+
+---
+build.dart --machine --removed=build1.dart
+
+build.dart finished [156 ms]
+
+---
+build.dart --machine --changed=pubspec.yaml
+Unhandled exception:
+No top-level getter 'get:main' declared.
+
+NoSuchMethodError : method not found: 'get:main'
+Receiver: top-level
+Arguments: [...]
+#0      NoSuchMethodError._throwNew (dart:core-patch/errors_patch.dart:166)
+#1      _getMainClosure (dart:builtin:13)
+build.dart finished [156 ms]
+
+---
+build.dart --machine --changed=pubspec.lock
+Unhandled exception:
+No top-level getter 'get:main' declared.
+
+NoSuchMethodError : method not found: 'get:main'
+Receiver: top-level
+Arguments: [...]
+#0      NoSuchMethodError._throwNew (dart:core-patch/errors_patch.dart:166)
+#1      _getMainClosure (dart:builtin:13)
+build.dart finished [189 ms]
+
+---
+build.dart --machine --changed=build2.dart
+Unhandled exception:
+No top-level getter 'get:main' declared.
+
+NoSuchMethodError : method not found: 'get:main'
+Receiver: top-level
+Arguments: [...]
+#0      NoSuchMethodError._throwNew (dart:core-patch/errors_patch.dart:166)
+#1      _getMainClosure (dart:builtin:13)
+build.dart finished [136 ms]
+
+---
+build.dart --machine --changed=build2.dart
+Unhandled exception:
+No top-level getter 'get:main' declared.
+
+NoSuchMethodError : method not found: 'get:main'
+Receiver: top-level
+Arguments: [...]
+#0      NoSuchMethodError._throwNew (dart:core-patch/errors_patch.dart:166)
+#1      _getMainClosure (dart:builtin:13)
+build.dart finished [157 ms]
+
+---
+build.dart --machine --changed=web\dry.html
+
+build.dart finished [1380 ms]
+
+---
+build.dart --machine --changed=web\dry.html
+
+build.dart finished [1368 ms]
+
+---
+build.dart --machine --changed=web\dry.html
+
+build.dart finished [1358 ms]
+
+---
+build.dart --machine --removed=web\dartscripts\pages\dry.dart.js --removed=web\dartscripts\pages\dry.dart.js.de...
+
+build.dart finished [1404 ms]
+
+---
+build.dart --machine --removed=web\dartscripts\pages\matrix_of_rules.dart.js --removed=web\dartscripts\pages\ma...
+
+build.dart finished [1347 ms]
+
+---
+build.dart --machine --removed=web\dartscripts\pages\md_of_rules.dart.js --removed=web\dartscripts\pages\md_of_...
+
+build.dart finished [1325 ms]
+
+---
+build.dart --machine --changed=build\css\960.css --changed=build\css\bootstrap.css --changed=build\css\bootstra...
+
+build.dart finished [1368 ms]
+
+---
+build.dart --machine --changed=web\dartscripts\network\http.dart
+
+build.dart finished [1949 ms]
+
+---
+build.dart --machine --removed=build\css\960.css --removed=build\css\bootstrap.css --removed=build\css\bootstra...
+
+build.dart finished [1346 ms]
+
+---
+build.dart --machine --changed=build\css\960.css --changed=build\css\bootstrap.css --changed=build\css\bootstra...
+
+build.dart finished [1607 ms]
+
+---
+build.dart --machine --changed=web\dartscripts\network\http.dart
+
+build.dart finished [1395 ms]
+
+---
+build.dart --machine --removed=build\css\960.css --removed=build\css\bootstrap.css --removed=build\css\bootstra...
+
+build.dart finished [1367 ms]
+
+---
+build.dart --machine --changed=web\dartscripts\pages\dry.dart
+
+build.dart finished [1366 ms]
+
+---
+build.dart --machine --changed=build\css\960.css --changed=build\css\bootstrap.css --changed=build\css\bootstra...
+
+build.dart finished [1334 ms]
+
+---
+build.dart --machine --changed=web\dartscripts\pages\md_of_rules.dart
+
+build.dart finished [1363 ms]
+
+---
+build.dart --machine --changed=web\dartscripts\pages\md_of_rules.dart
+
+build.dart finished [1359 ms]
+
+---
+build.dart --machine --changed=web\dartscripts\pages\md_of_rules.dart
+
+build.dart finished [1370 ms]
+
+---
+build.dart --machine --changed=web\dartscripts\pages\md_of_rules.dart
+
+build.dart finished [1355 ms]
+
+---
+build.dart --machine --changed=web\dartscripts\pages\md_of_rules.dart
+
+build.dart finished [1428 ms]
+
+---
+build.dart --machine --changed=web\dartscripts\pages\md_of_rules.dart
+
+build.dart finished [1377 ms]
+
+---
+build.dart --machine --changed=web\dartscripts\pages\dry.dart
+
+build.dart finished [1417 ms]
+
+---
+build.dart --machine --changed=web\dartscripts\pages\dry.dart
+
+build.dart finished [1379 ms]
+
+---
+build.dart --machine --changed=web\dartscripts\pages\dry.dart
+
+build.dart finished [1346 ms]
+
+---
+build.dart --machine --changed=web\dartscripts\pages\dry.dart
+
+build.dart finished [1351 ms]
+
+---
+build.dart --machine --changed=web\dartscripts\pages\dry.dart
+
+build.dart finished [1355 ms]
+
+---
+build.dart --machine --changed=web\dartscripts\pages\dry.dart
+
+build.dart finished [1327 ms]
+
+---
+build.dart --machine --changed=web\dartscripts\pages\dry.dart
+
+build.dart finished [1330 ms]
+
+---
+build.dart --machine --changed=web\dartscripts\pages\dry.dart
+
+build.dart finished [1343 ms]
+
+---
+build.dart --machine --changed=web\dartscripts\pages\dry.dart
+
+build.dart finished [1377 ms]
+
+---
+build.dart --machine --changed=web\dartscripts\pages\dry.dart
+
+build.dart finished [1357 ms]
+
+---
+build.dart --machine --changed=web\dartscripts\pages\dry.dart
+
+build.dart finished [1328 ms]
+
+---
+build.dart --machine --changed=web\dartscripts\pages\dry.dart
+
+build.dart finished [1343 ms]
+
+---
+build.dart --machine --changed=web\dartscripts\pages\dry.dart
+
+build.dart finished [1342 ms]
+
+---
+build.dart --machine --changed=web\dartscripts\pages\dry.dart
+
+build.dart finished [1354 ms]
+
+---
+build.dart --machine --changed=web\dartscripts\pages\dry.dart
+
+build.dart finished [1331 ms]
+
+---
+build.dart --machine --changed=web\dartscripts\pages\dry.dart
+
+build.dart finished [1349 ms]
+
+---
+build.dart --machine --changed=web\dartscripts\pages\dry.dart
+
+build.dart finished [1374 ms]
+
+---
+build.dart --machine --changed=web\dartscripts\pages\dry.dart
+
+build.dart finished [1361 ms]
+
+---
+build.dart --machine --changed=web\dartscripts\pages\dry.dart
+
+build.dart finished [1361 ms]
+
+---
+build.dart --machine --changed=web\dartscripts\pages\dry.dart
+
+build.dart finished [1318 ms]
+
+---
+build.dart --machine --changed=web\dartscripts\pages\dry.dart
+
+build.dart finished [1330 ms]
+
+---
+build.dart --machine --changed=web\dartscripts\pages\dry.dart
+
+build.dart finished [1340 ms]
+
+---
+build.dart --machine --changed=web\dartscripts\pages\dry.dart
+
+build.dart finished [1380 ms]
+
+---
+build.dart --machine --changed=web\dartscripts\pages\dry.dart
+
+build.dart finished [1400 ms]
+
+---
+build.dart --machine --changed=web\dartscripts\pages\dry.dart
+
+build.dart finished [1370 ms]
+
+---
+build.dart --machine --changed=web\dartscripts\pages\dry.dart
+
+build.dart finished [1399 ms]
+
+---
+build.dart --machine --changed=web\dartscripts\pages\dry.dart
+
+build.dart finished [1390 ms]
+
+---
+build.dart --machine --changed=web\dartscripts\pages\dry.dart
+
+build.dart finished [1287 ms]
+
+---
+build.dart --machine --changed=web\dartscripts\pages\dry.dart
+
+build.dart finished [1345 ms]
+
+---
+build.dart --machine --changed=web\dartscripts\pages\dry.dart
+
+build.dart finished [1356 ms]
+
+---
+build.dart --machine --changed=web\dartscripts\pages\dry.dart
+
+build.dart finished [1336 ms]
+
+---
+build.dart --machine --changed=web\dartscripts\pages\dry.dart
+
+build.dart finished [1359 ms]
+
+---
+build.dart --machine --changed=web\dartscripts\pages\dry.dart
+
+build.dart finished [1358 ms]
+
+---
+build.dart --machine --changed=web\dartscripts\pages\dry.dart
+
+build.dart finished [1325 ms]
+
+---
+build.dart --machine --changed=web\dartscripts\pages\dry.dart
+
+build.dart finished [1339 ms]
+
+---
+build.dart --machine --changed=web\dartscripts\pages\dry.dart
+
+build.dart finished [1342 ms]
+
+---
+build.dart --machine --changed=web\dartscripts\pages\dry.dart
+
+build.dart finished [1344 ms]
+
+---
+build.dart --machine --changed=web\dartscripts\pages\dry.dart
+
+build.dart finished [1329 ms]
+
+---
+build.dart --machine --changed=web\dartscripts\pages\dry.dart
+
+build.dart finished [1339 ms]
+
+---
+build.dart --machine --changed=web\dartscripts\pages\dry.dart
+
+build.dart finished [1325 ms]
+
+---
+build.dart --machine --changed=web\dartscripts\pages\dry.dart
+
+build.dart finished [1338 ms]
+
+---
+build.dart --machine --changed=web\dartscripts\pages\dry.dart
+
+build.dart finished [1309 ms]
+
+---
+build.dart --machine --changed=web\dartscripts\pages\dry.dart
+
+build.dart finished [1324 ms]
+
+---
+build.dart --machine --changed=web\dartscripts\pages\dry.dart
+
+build.dart finished [1341 ms]
+
+---
+build.dart --machine --changed=web\dartscripts\pages\dry.dart
+
+build.dart finished [1305 ms]
+
+---
+build.dart --machine --changed=web\dartscripts\pages\dry.dart
+
+build.dart finished [1334 ms]
+
+---
+build.dart --machine --changed=web\dartscripts\pages\dry.dart
+
+build.dart finished [1369 ms]
+
+---
+build.dart --machine --changed=web\dartscripts\pages\dry.dart
+
+build.dart finished [1330 ms]
+
+---
+build.dart --machine --changed=web\dartscripts\pages\dry.dart
+
+build.dart finished [1374 ms]
+
+---
+build.dart --machine --changed=web\dartscripts\pages\dry.dart
+
+build.dart finished [1377 ms]
+
+---
+build.dart --machine --changed=web\dartscripts\pages\dry.dart
+
+build.dart finished [1370 ms]
+
+---
+build.dart --machine --changed=web\dartscripts\pages\dry.dart
+
+build.dart finished [1370 ms]
+
+---
+build.dart --machine --changed=web\dartscripts\pages\dry.dart
+
+build.dart finished [1354 ms]
+
+---
+build.dart --machine --changed=web\dartscripts\pages\dry.dart
+
+build.dart finished [1362 ms]
+
+---
+build.dart --machine --changed=web\dartscripts\pages\dry.dart.js --changed=web\dartscripts\pages\dry.dart.js.de...
+
+build.dart finished [1419 ms]
+
+---
+build.dart --machine --removed=web\dartscripts\pages\dry.dart.js.deps --removed=web\dartscripts\pages\dry.dart....
+
+build.dart finished [1367 ms]
+
+---
+build.dart --machine --removed=web\dartscripts\pages\dry.dart.js
+
+build.dart finished [1365 ms]
+
+---
+build.dart --machine --changed=web\dry.html
+
+build.dart finished [1355 ms]
+
+---
+build.dart --machine --changed=web\dry.html
+
+build.dart finished [1338 ms]
+
+---
+build.dart --machine --changed=web\dry.html
+
+build.dart finished [1339 ms]
+
+---
+build.dart --machine --changed=web\dry.html
+
+build.dart finished [1330 ms]
+
+---
+build.dart --machine --removed=build\css\960.css --removed=build\css\bootstrap.css --removed=build\css\bootstra...
+
+build.dart finished [1518 ms]
+
+---
+build.dart --machine --changed=build\css\960.css --changed=build\css\bootstrap.css --changed=build\css\bootstra...
+
+build.dart finished [1369 ms]
+
+---
+build.dart --machine --changed=web\dartscripts\javascript\prettyprint.dart
+
+build.dart finished [1378 ms]
+
+---
+build.dart --machine --changed=web\dartscripts\javascript\prettyprint.dart
+
+build.dart finished [1352 ms]
+
+---
+build.dart --machine --changed=web\dartscripts\javascript\prettyprint.dart
+
+build.dart finished [1352 ms]
+
+---
+build.dart --machine --changed=web\dartscripts\javascript\prettyprint.dart
+
+build.dart finished [1344 ms]
+
+---
+build.dart --machine --changed=web\dartscripts\javascript\prettyprint.dart
+
+build.dart finished [1342 ms]
+
+---
+build.dart --machine --changed=web\dartscripts\javascript\prettyprint.dart
+
+build.dart finished [1376 ms]
+
+---
+build.dart --machine --changed=web\dartscripts\javascript\prettyprint.dart
+
+build.dart finished [1389 ms]
+
+---
+build.dart --machine --changed=web\dartscripts\javascript\prettyprint.dart
+
+build.dart finished [1364 ms]
+
+---
+build.dart --machine --changed=web\md_of_rules.html
+
+build.dart finished [1395 ms]
+
+---
+build.dart --machine --changed=web\md_of_rules.html
+
+build.dart finished [1346 ms]
+
+---
+build.dart --machine --changed=web\md_of_rules.html
+
+build.dart finished [1335 ms]
+
+---
+build.dart --machine --changed=web\md_of_rules.html
+[{"method":"error","params":{"file":"web/md_of_rules.html","message":"To run a polymer application, you need to call \"initPolymer\". You can either include a generic script tag that does this for you:'<script type=\"application/dart\">export \"package:polymer/init.dart\";</script>' or add your own script tag and call that function. Make sure the script tag is placed after all HTML imports.","line":15,"charStart":600,"charEnd":606}}]
+build failed with errors: {Transform polymer (Linter) on etude|web/md_of_rules.html threw error: To run a polymer application, you need to call "initPolymer". You can either include a generic script tag that does this for you:'<script type="application/dart">export "package:polymer/init.dart";</script>' or add your own script tag and call that function. Make sure the script tag is placed after all HTML imports.}
+build.dart finished [1324 ms]
+
+---
+build.dart --machine --changed=web\md_of_rules.html
+
+build.dart finished [1343 ms]
+
+---
+build.dart --machine --changed=web\md_of_rules.html
+
+build.dart finished [1349 ms]
+
+---
+build.dart --machine --changed=web\md_of_rules.html
+
+build.dart finished [1332 ms]
+
+---
+build.dart --machine --changed=web\md_of_rules.html
+
+build.dart finished [1348 ms]
+
+---
+build.dart --machine --changed=web\md_of_rules.html
+
+build.dart finished [1345 ms]
+
+---
+build.dart --machine --changed=web\dartscripts\javascript\prettyprint.dart
+
+build.dart finished [1338 ms]
+
+---
+build.dart --machine --changed=web\dartscripts\javascript\prettyprint.dart
+
+build.dart finished [1336 ms]
+
+---
+build.dart --machine --changed=web\dartscripts\javascript\prettyprint.dart
+
+build.dart finished [1380 ms]
+
+---
+build.dart --machine --changed=web\dartscripts\javascript\prettyprint.dart
+
+build.dart finished [1364 ms]
+
+---
+build.dart --machine --changed=web\dartscripts\javascript\prettyprint.dart
+
+build.dart finished [1354 ms]
+
+---
+build.dart --machine --changed=web\dartscripts\javascript\prettyprint.dart
+
+build.dart finished [1397 ms]
+
+---
+build.dart --machine --changed=web\dartscripts\javascript\prettyprint.dart
+
+build.dart finished [1382 ms]
+
+---
+build.dart --machine --changed=web\dartscripts\javascript\prettyprint.dart
+
+build.dart finished [1383 ms]
+
+---
+build.dart --machine --changed=web\dartscripts\javascript\prettyprint.dart
+
+build.dart finished [1352 ms]
+
+---
+build.dart --machine --changed=web\dartscripts\javascript\prettyprint.dart
+
+build.dart finished [1345 ms]
+
+---
+build.dart --machine --changed=web\dartscripts\javascript\prettyprint.dart
+
+build.dart finished [1360 ms]
+
+---
+build.dart --machine --changed=web\dartscripts\javascript\prettyprint.dart
+
+build.dart finished [1333 ms]
+
+---
+build.dart --machine --changed=web\dartscripts\javascript\prettyprint.dart
+
+build.dart finished [1351 ms]
+
+---
+build.dart --machine --changed=web\dartscripts\pages\dry.dart
+
+build.dart finished [1364 ms]
+
+---
+build.dart --machine --changed=web\dartscripts\pages\dry.dart
+
+build.dart finished [1348 ms]
+
+---
+build.dart --machine --changed=web\dartscripts\pages\dry.dart
+
+build.dart finished [1348 ms]
+
+---
+build.dart --machine --removed=build\css\960.css --removed=build\css\bootstrap.css --removed=build\css\bootstra...
+
+build.dart finished [1346 ms]
+
+---
+build.dart --machine --changed=build\css\960.css --changed=build\css\bootstrap.css --changed=build\css\bootstra...
+
+build.dart finished [1376 ms]
+
+---
+build.dart --machine --changed=web\md_of_rules.html
+
+build.dart finished [1366 ms]
+
+---
+build.dart --machine --changed=web\md_of_rules.html
+
+build.dart finished [1373 ms]
+
+---
+build.dart --machine --changed=web\md_of_rules.html
+
+build.dart finished [1336 ms]
+
+---
+build.dart --machine --changed=web\md_of_rules.html
+[{"method":"error","params":{"file":"web/md_of_rules.html","message":"To run a polymer application, you need to call \"initPolymer\". You can either include a generic script tag that does this for you:'<script type=\"application/dart\">export \"package:polymer/init.dart\";</script>' or add your own script tag and call that function. Make sure the script tag is placed after all HTML imports.","line":15,"charStart":600,"charEnd":606}}]
+build failed with errors: {Transform polymer (Linter) on etude|web/md_of_rules.html threw error: To run a polymer application, you need to call "initPolymer". You can either include a generic script tag that does this for you:'<script type="application/dart">export "package:polymer/init.dart";</script>' or add your own script tag and call that function. Make sure the script tag is placed after all HTML imports.}
+build.dart finished [1353 ms]
+
+---
+build.dart --machine --changed=web\md_of_rules.html
+
+build.dart finished [1373 ms]
+
+---
+build.dart --machine --changed=web\md_of_rules.html
+
+build.dart finished [1407 ms]
+
+---
+build.dart --machine --removed=build\css\960.css --removed=build\css\bootstrap.css --removed=build\css\bootstra...
+
+build.dart finished [1366 ms]
+
+---
+build.dart --machine --changed=build\css\960.css --changed=build\css\bootstrap.css --changed=build\css\bootstra...
+
+build.dart finished [1405 ms]
+
+---
+build.dart --machine --changed=web\md_of_rules.html
+
+build.dart finished [1417 ms]
+
+---
+build.dart --machine --changed=web\md_of_rules.html
+
+build.dart finished [1380 ms]
+
+---
+build.dart --machine --removed=build\css\960.css --removed=build\css\bootstrap.css --removed=build\css\bootstra...
+
+build.dart finished [1364 ms]
+
+---
+build.dart --machine --changed=build\css\960.css --changed=build\css\bootstrap.css --changed=build\css\bootstra...
+
+build.dart finished [1338 ms]
+
+---
+build.dart --machine --changed=web\dartscripts\pages\md_of_rules.dart
+
+build.dart finished [1427 ms]
+
+---
+build.dart --machine --changed=web\dartscripts\pages\md_of_rules.dart
+
+build.dart finished [1357 ms]
+
+---
+build.dart --machine --changed=web\dartscripts\pages\md_of_rules.dart
+
+build.dart finished [1340 ms]
+
+---
+build.dart --machine --changed=web\dartscripts\pages\md_of_rules.dart
+
+build.dart finished [1341 ms]
+
+---
+build.dart --machine --changed=web\dartscripts\pages\md_of_rules.dart
+
+build.dart finished [1354 ms]
+
+---
+build.dart --machine --changed=web\dartscripts\pages\md_of_rules.dart
+
+build.dart finished [1346 ms]
+
+---
+build.dart --machine --changed=web\dartscripts\pages\md_of_rules.dart
+
+build.dart finished [1343 ms]
+
+---
+build.dart --machine --changed=web\dartscripts\pages\md_of_rules.dart
+
+build.dart finished [1363 ms]
+
+---
+build.dart --machine --changed=web\dartscripts\pages\md_of_rules.dart
+
+build.dart finished [1328 ms]
+
+---
+build.dart --machine --changed=web\dartscripts\pages\md_of_rules.dart
+
+build.dart finished [1347 ms]
+
+---
+build.dart --machine --removed=build\css\960.css --removed=build\css\bootstrap.css --removed=build\css\bootstra...
+
+build.dart finished [1348 ms]
+
+---
+build.dart --machine --changed=build\css\960.css --changed=build\css\bootstrap.css --changed=build\css\bootstra...
+
+build.dart finished [1338 ms]
+
+---
+build.dart --machine --changed=web\dartscripts\pages\md_of_rules.dart
+
+build.dart finished [1334 ms]
+
+---
+build.dart --machine --changed=web\dartscripts\javascript\prettyprint.dart
+
+build.dart finished [1375 ms]
+
+---
+build.dart --machine --changed=web\dartscripts\javascript\prettyprint.dart
+
+build.dart finished [1379 ms]
+
+---
+build.dart --machine --changed=web\dartscripts\javascript\prettyprint.dart
+
+build.dart finished [1361 ms]
+
+---
+build.dart --machine --changed=web\dartscripts\javascript\prettyprint.dart
+
+build.dart finished [1351 ms]
+
+---
+build.dart --machine --changed=web\dartscripts\javascript\prettyprint.dart
+
+build.dart finished [1392 ms]
+
+---
+build.dart --machine --changed=web\dartscripts\javascript\prettyprint.dart
+
+build.dart finished [1329 ms]
+
+---
+build.dart --machine --changed=web\dartscripts\javascript\prettyprint.dart
+
+build.dart finished [1348 ms]
+
+---
+build.dart --machine --removed=build\css\960.css --removed=build\css\bootstrap.css --removed=build\css\bootstra...
+
+build.dart finished [1364 ms]
+
+---
+build.dart --machine --changed=build\css\960.css --changed=build\css\bootstrap.css --changed=build\css\bootstra...
+
+build.dart finished [1335 ms]
+
+---
+build.dart --machine --changed=web\dartscripts\javascript\prettyprint.dart
+
+build.dart finished [1375 ms]
+
+---
+build.dart --machine --changed=web\dartscripts\javascript\prettyprint.dart
+
+build.dart finished [1428 ms]
+
+---
+build.dart --machine --changed=web\dartscripts\javascript\prettyprint.dart
+
+build.dart finished [1338 ms]
+
+---
+build.dart --machine --removed=build\css\960.css --removed=build\css\bootstrap.css --removed=build\css\bootstra...
+
+build.dart finished [1401 ms]
+
+---
+build.dart --machine --changed=build\css\960.css --changed=build\css\bootstrap.css --changed=build\css\bootstra...
+
+build.dart finished [1382 ms]
+
+---
+build.dart --machine --changed=web\dartscripts\javascript\prettyprint.dart
+
+build.dart finished [1411 ms]
+
+---
+build.dart --machine --changed=web\dartscripts\javascript\prettyprint.dart
+
+build.dart finished [1339 ms]
+
+---
+build.dart --machine --removed=build\css\960.css --removed=build\css\bootstrap.css --removed=build\css\bootstra...
+
+build.dart finished [1335 ms]
+
+---
+build.dart --machine --changed=pubspec.lock
+
+build.dart finished [1338 ms]
+
+---
+build.dart --machine --changed=build\css\960.css --changed=build\css\bootstrap.css --changed=build\css\bootstra...
+
+build.dart finished [1337 ms]
+
+---
+build.dart --machine --changed=web\js\prettify.js --changed=web\js\run_prettify.js
+
+build.dart finished [1395 ms]
+
+---
+build.dart --machine --changed=web\md_of_rules.html
+
+build.dart finished [1349 ms]
+
+---
+build.dart --machine --changed=web\dartscripts\javascript\prettyprint.dart
+
+build.dart finished [1353 ms]
+
+---
+build.dart --machine --changed=web\js\prettify.js --changed=web\js\run_prettify.js
+
+build.dart finished [1350 ms]
+
+---
+build.dart --machine --changed=web\md_of_rules.html
+
+build.dart finished [1432 ms]
+
+---
+build.dart --machine --removed=build\css\960.css --removed=build\css\bootstrap.css --removed=build\css\bootstra...
+
+build.dart finished [1370 ms]
+
+---
+build.dart --machine --changed=build\css\960.css --changed=build\css\bootstrap.css --changed=build\css\bootstra...
+
+build.dart finished [1405 ms]
+
+---
+build.dart --machine --changed=web\dartscripts\javascript\prettyprint.dart
+
+build.dart finished [1372 ms]
+
+---
+build.dart --machine --removed=build\css\960.css --removed=build\css\bootstrap.css --removed=build\css\bootstra...
+
+build.dart finished [1378 ms]
+
+---
+build.dart --machine --changed=build\css\960.css --changed=build\css\bootstrap.css --changed=build\css\bootstra...
+
+build.dart finished [1353 ms]
+
+---
+build.dart --machine --changed=web\dartscripts\pages\md_of_rules.dart.js --changed=web\dartscripts\pages\md_of_...
+
+build.dart finished [1386 ms]
+
+---
+build.dart --machine --removed=web\dartscripts\pages\md_of_rules.dart.js --removed=web\dartscripts\pages\md_of_...
+
+build.dart finished [1348 ms]
+
+---
+build.dart --machine --changed=web\dartscripts\javascript\prettyprint.dart
+
+build.dart finished [1375 ms]
+
+---
+build.dart --machine --changed=web\dartscripts\javascript\prettyprint.dart
+
+build.dart finished [1373 ms]
+
+---
+build.dart --machine --changed=web\dartscripts\javascript\prettyprint.dart
+
+build.dart finished [1356 ms]
+
+---
+build.dart --machine --changed=web\dartscripts\javascript\prettyprint.dart
+
+build.dart finished [1370 ms]
+
+---
+build.dart --machine --changed=web\dartscripts\pages\dry.dart
+
+build.dart finished [1353 ms]
+
+---
+build.dart --machine --changed=web\dartscripts\pages\dry.dart
+
+build.dart finished [1320 ms]
+
+---
+build.dart --machine --changed=web\dartscripts\pages\dry.dart
+
+build.dart finished [1351 ms]
+
+---
+build.dart --machine --changed=web\dartscripts\pages\dry.dart
+
+build.dart finished [1354 ms]
+
+---
+build.dart --machine --changed=web\dartscripts\pages\dry.dart
+
+build.dart finished [1349 ms]
+
+---
+build.dart --machine --changed=web\dartscripts\pages\dry.dart
+
+build.dart finished [1394 ms]
+
+---
+build.dart --machine --changed=web\dartscripts\pages\dry.dart
+
+build.dart finished [1666 ms]
+
+---
+build.dart --machine --changed=web\dartscripts\javascript\prettyprint.dart
+
+build.dart finished [1406 ms]
+
+---
+build.dart --machine --changed=web\dartscripts\javascript\prettyprint.dart
+
+build.dart finished [1361 ms]
+
+---
+build.dart --machine --changed=web\dartscripts\javascript\prettyprint.dart
+
+build.dart finished [1348 ms]
+
+---
+build.dart --machine --changed=web\dartscripts\javascript\prettyprint.dart
+
+build.dart finished [1349 ms]
+
+---
+build.dart --machine --changed=web\dartscripts\javascript\prettyprint.dart
+
+build.dart finished [1361 ms]
+
+---
+build.dart --machine --changed=web\dartscripts\javascript\prettyprint.dart
+
+build.dart finished [1370 ms]
+
+---
+build.dart --machine --changed=web\dartscripts\javascript\prettyprint.dart
+
+build.dart finished [1354 ms]
+
+---
+build.dart --machine --changed=web\dartscripts\javascript\prettyprint.dart
+
+build.dart finished [1354 ms]
+
+---
+build.dart --machine --changed=web\dartscripts\javascript\prettyprint.dart
+
+build.dart finished [1372 ms]
+
+---
+build.dart --machine --changed=web\dartscripts\javascript\prettyprint.dart
+
+build.dart finished [1373 ms]
+
+---
+build.dart --machine --changed=web\dartscripts\javascript\prettyprint.dart
+
+build.dart finished [1373 ms]
+
+---
+build.dart --machine --changed=web\dartscripts\javascript\prettyprint.dart
+
+build.dart finished [1372 ms]
+
+---
+build.dart --machine --changed=web\dartscripts\javascript\prettyprint.dart
+
+build.dart finished [1366 ms]
+
+---
+build.dart --machine --changed=web\dartscripts\javascript\prettyprint.dart
+
+build.dart finished [1385 ms]
+
+---
+build.dart --machine --changed=web\dartscripts\javascript\prettyprint.dart
+
+build.dart finished [1377 ms]
+
+---
+build.dart --machine --removed=build\css\960.css --removed=build\css\bootstrap.css --removed=build\css\bootstra...
+
+build.dart finished [1424 ms]
+
+---
+build.dart --machine --changed=build\css\960.css --changed=build\css\bootstrap.css --changed=build\css\bootstra...
+
+build.dart finished [1382 ms]
+
+---
+build.dart --machine --changed=web\dartscripts\javascript\prettyprint.dart
+
+build.dart finished [1447 ms]
+
+---
+build.dart --machine --removed=build\css\960.css --removed=build\css\bootstrap.css --removed=build\css\bootstra...
+
+build.dart finished [1367 ms]
+
+---
+build.dart --machine --changed=build\css\960.css --changed=build\css\bootstrap.css --changed=build\css\bootstra...
+
+build.dart finished [1348 ms]
+
+---
+build.dart --machine --changed=web\dartscripts\javascript\prettyprint.dart
+
+build.dart finished [1373 ms]
+
+---
+build.dart --machine --changed=web\dartscripts\javascript\prettyprint.dart
+
+build.dart finished [1367 ms]
+
+---
+build.dart --machine --changed=web\dartscripts\pages\md_of_rules.dart
+
+build.dart finished [1361 ms]
+
+---
+build.dart --machine --changed=web\dartscripts\javascript\prettyprint.dart
+
+build.dart finished [1410 ms]
+
+---
+build.dart --machine --changed=web\dartscripts\pages\md_of_rules.dart
+
+build.dart finished [1380 ms]
+
+---
+build.dart --machine --changed=web\dartscripts\pages\md_of_rules.dart
+
+build.dart finished [1389 ms]
+
+---
+build.dart --machine --changed=web\dartscripts\pages\md_of_rules.dart
+
+build.dart finished [1375 ms]
+
+---
+build.dart --machine --removed=build\css\960.css --removed=build\css\bootstrap.css --removed=build\css\bootstra...
+
+build.dart finished [1338 ms]
+
+---
+build.dart --machine --changed=build\css\960.css --changed=build\css\bootstrap.css --changed=build\css\bootstra...
+
+build.dart finished [1416 ms]
+
+---
+build.dart --machine --removed=build\css\960.css --removed=build\css\bootstrap.css --removed=build\css\bootstra...
+Done! All files written to "out"
+build.dart finished [3430 ms]
+
+---
+build.dart --machine --changed=build\css\960.css --changed=build\css\bootstrap.css --changed=build\css\bootstra...
+Done! All files written to "out"
+build.dart finished [4246 ms]
+
+---
+build.dart --machine --removed=build\css\960.css --removed=build\css\bootstrap.css --removed=build\css\bootstra...
+Done! All files written to "out"
+build.dart finished [3893 ms]
+
+---
+build.dart --machine --changed=build\css\960.css --changed=build\css\bootstrap.css --changed=build\css\bootstra...
+
+build.dart finished [1347 ms]
+
+---
+build.dart --machine --removed=build\css\960.css --removed=build\css\bootstrap.css --removed=build\css\bootstra...
+
+build.dart finished [1352 ms]
+
+---
+build.dart --machine --changed=build\css\960.css --changed=build\css\bootstrap.css --changed=build\css\bootstra...
+
+build.dart finished [1366 ms]
+
+---
+build.dart --machine --removed=build\css\960.css --removed=build\css\bootstrap.css --removed=build\css\bootstra...
+Done! All files written to "out"
+build.dart finished [3531 ms]
+
+---
+build.dart --machine --changed=build\css\960.css --changed=build\css\bootstrap.css --changed=build\css\bootstra...
+Done! All files written to "out"
+build.dart finished [3176 ms]
+
+---
+build.dart --machine --changed=web\md_of_rules.html
+
+build.dart finished [1390 ms]
+
+---
+build.dart --machine --changed=web\js\prettify.js --changed=web\js\run_prettify.js
+
+build.dart finished [1369 ms]
+
+---
+build.dart --machine --changed=web\md_of_rules.html
+
+build.dart finished [1349 ms]
+
+---
+build.dart --machine --changed=web\css\prettify.css.bkg --removed=web\css\prettify.css
+
+build.dart finished [1347 ms]
+
+---
+build.dart --machine --changed=web\css\prettify.css
+
+build.dart finished [1355 ms]
+
+---
+build.dart --machine --changed=web\md_of_rules.html
+
+build.dart finished [1342 ms]
+
+---
+build.dart --machine --changed=web\md_of_rules.html
+
+build.dart finished [1353 ms]
+
+---
+build.dart --machine --removed=build\css\960.css --removed=build\css\bootstrap.css --removed=build\css\bootstra...
+
+build.dart finished [1364 ms]
+
+---
+build.dart --machine --changed=build\css\960.css --changed=build\css\bootstrap.css --changed=build\css\bootstra...
+
+build.dart finished [1369 ms]
+
+---
+build.dart --machine --changed=pubspec.lock
+
+build.dart finished [1337 ms]
+
+---
+build.dart --machine --removed=build\css\960.css --removed=build\css\bootstrap.css --removed=build\css\bootstra...
+
+build.dart finished [1404 ms]
+
+---
+build.dart --machine --changed=build\css\960.css --changed=build\css\bootstrap.css --changed=build\css\bootstra...
+
+build.dart finished [1355 ms]
+
+---
+build.dart --machine --changed=build\dry.html
+
+build.dart finished [1351 ms]
+
+---
+build.dart --machine --changed=build\dry.html
+
+build.dart finished [1349 ms]
+
+---
+build.dart --machine --changed=build\dry.html
+
+build.dart finished [1373 ms]
+
+---
+build.dart --machine --changed=build\md_of_rules.html
+
+build.dart finished [1387 ms]
+
+---
+build.dart --machine --changed=build\md_of_rules.html
+
+build.dart finished [1379 ms]
+
+---
+build.dart --machine --changed=build\md_of_rules.html
+
+build.dart finished [1385 ms]
+
+---
+build.dart --machine --changed=web\md_of_rules.html
+
+build.dart finished [1391 ms]
+
+---
+build.dart --machine --changed=web\md_of_rules.html
+
+build.dart finished [1380 ms]
+
+---
+build.dart --machine --changed=web\md_of_rules.html
+
+build.dart finished [1367 ms]
+
+---
+build.dart --machine --changed=web\dartscripts\pages\md_of_rules.dart
+
+build.dart finished [1396 ms]
+
+---
+build.dart --machine --changed=web\dartscripts\pages\md_of_rules.dart
+
+build.dart finished [1361 ms]
+
+---
+build.dart --machine --changed=web\dartscripts\pages\md_of_rules.dart
+
+build.dart finished [1371 ms]
+
+---
+build.dart --machine --changed=web\dartscripts\pages\md_of_rules.dart
+
+build.dart finished [1371 ms]
+
+---
+build.dart --machine --changed=web\dartscripts\pages\md_of_rules.dart
+
+build.dart finished [1353 ms]
+
+---
+build.dart --machine --changed=web\dartscripts\pages\md_of_rules.dart
+
+build.dart finished [1336 ms]
+
+---
+build.dart --machine --changed=web\dartscripts\pages\md_of_rules.dart
+
+build.dart finished [1352 ms]
+
+---
+build.dart --machine --removed=build\css\960.css --removed=build\css\bootstrap.css --removed=build\css\bootstra...
+
+build.dart finished [1346 ms]
+
+---
+build.dart --machine --changed=build\css\960.css --changed=build\css\bootstrap.css --changed=build\css\bootstra...
+
+build.dart finished [1380 ms]
+
+---
+build.dart --machine --changed=web\dartscripts\pages\md_of_rules.dart
+
+build.dart finished [1360 ms]
+
+---
+build.dart --machine --changed=web\dartscripts\pages\md_of_rules.dart
+
+build.dart finished [1320 ms]
+
+---
+build.dart --machine --changed=web\dartscripts\pages\matrix_of_rules.dart
+
+build.dart finished [1330 ms]
+
+---
+build.dart --machine --removed=build\css\960.css --removed=build\css\bootstrap.css --removed=build\css\bootstra...
+
+build.dart finished [1356 ms]
+
+---
+build.dart --machine --changed=build\css\960.css --changed=build\css\bootstrap.css --changed=build\css\bootstra...
+
+build.dart finished [1330 ms]
+
+---
+build.dart --machine --removed=build\css\960.css --removed=build\css\bootstrap.css --removed=build\css\bootstra...
+
+build.dart finished [1320 ms]
+
+---
+build.dart --machine --changed=build\css\960.css --changed=build\css\bootstrap.css --changed=build\css\bootstra...
+
+build.dart finished [1330 ms]
+
+---
+build.dart --machine --removed=build\css\960.css --removed=build\css\bootstrap.css --removed=build\css\bootstra...
+
+build.dart finished [1800 ms]
+
+---
+build.dart --machine --changed=build\css\960.css --changed=build\css\bootstrap.css --changed=build\css\bootstra...
+
+build.dart finished [1340 ms]
+
+---
+build.dart --machine --changed=web\dartscripts\pages\md_of_rules.dart
+
+build.dart finished [1360 ms]
+
+---
+build.dart --machine --changed=web\dartscripts\pages\matrix_of_rules.dart
+
+build.dart finished [1330 ms]
+
+---
+build.dart --machine --removed=build\css\960.css --removed=build\css\bootstrap.css --removed=build\css\bootstra...
+
+build.dart finished [1330 ms]
+
+---
+build.dart --machine --changed=build\css\960.css --changed=build\css\bootstrap.css --changed=build\css\bootstra...
+
+build.dart finished [1390 ms]
+
+---
+build.dart --machine --changed=pubspec.yaml
+
+build.dart finished [1484 ms]
+
+---
+build.dart --machine --changed=web\dartscripts\pages\dry.dart
+
+build.dart finished [1467 ms]
+
+---
+build.dart --machine --changed=web\dartscripts\pages\dry.dart
+
+build.dart finished [1415 ms]
+
+---
+build.dart --machine --changed=web\dartscripts\pages\dry.dart
+
+build.dart finished [1398 ms]
+
+---
+build.dart --machine --changed=pubspec.lock
+
+build.dart finished [1334 ms]
+
+---
+build.dart --machine --changed=pubspec.yaml
+Unable to open file: C:\Users\CHANRO3\dart\etude\packages\unmodifiable_collection\unmodifiable_collection.dart'package:args/args.dart': error: line 264 pos 1: library handler failed
+import 'package:unmodifiable_collection/unmodifiable_collection.dart';
+^
+'package:polymer/builder.dart': error: line 87 pos 1: library handler failed
+import 'package:args/args.dart';
+^
+'file:///C:/Users/CHANRO3/dart/etude/build.dart': error: line 1 pos 1: library handler failed
+import 'package:polymer/builder.dart';
+^
+build.dart finished [852 ms]
+
+---
+build.dart --machine --changed=pubspec.lock
+
+build.dart finished [1390 ms]
+
+---
+build.dart --machine --changed=pubspec.yaml
+
+build.dart finished [1460 ms]
+
+---
+build.dart --machine --changed=pubspec.lock
+
+build.dart finished [1380 ms]
+
+---
+build.dart --machine --changed=pubspec.yaml
+
+build.dart finished [1410 ms]
+
+---
+build.dart --machine --changed=pubspec.lock
+
+build.dart finished [1400 ms]
+
+---
+build.dart --machine --changed=pubspec.yaml
+
+build.dart finished [1420 ms]
+
+---
+build.dart --machine --changed=pubspec.lock
+
+build.dart finished [1330 ms]
+
+---
+build.dart --machine --changed=pubspec.yaml
+
+build.dart finished [1360 ms]
+
+---
+build.dart --machine --changed=pubspec.lock
+
+build.dart finished [1379 ms]
+
+---
+build.dart --machine --changed=pubspec.yaml
+Unable to open file: C:\Users\CHANRO3\dart\etude\packages\unmodifiable_collection\unmodifiable_collection.dart'package:args/args.dart': error: line 264 pos 1: library handler failed
+import 'package:unmodifiable_collection/unmodifiable_collection.dart';
+^
+'package:polymer/builder.dart': error: line 87 pos 1: library handler failed
+import 'package:args/args.dart';
+^
+'file:///C:/Users/CHANRO3/dart/etude/build.dart': error: line 1 pos 1: library handler failed
+import 'package:polymer/builder.dart';
+^
+build.dart finished [139 ms]
+
+---
+build.dart --machine --changed=pubspec.lock
+
+build.dart finished [1341 ms]
+
+---
+build.dart --machine --changed=pubspec.lock
+
+build.dart finished [1358 ms]
+
+---
+build.dart --machine --changed=pubspec.lock
+
+build.dart finished [1380 ms]
+
+---
+build.dart --machine --changed=pubspec.yaml
+
+build.dart finished [1350 ms]
+
+---
+build.dart --machine --changed=pubspec.lock
+
+build.dart finished [1340 ms]
+
+---
+build.dart --machine --changed=pubspec.yaml
+Unable to open file: C:\Users\CHANRO3\dart\etude\packages\unmodifiable_collection\unmodifiable_collection.dart'package:args/args.dart': error: line 264 pos 1: library handler failed
+import 'package:unmodifiable_collection/unmodifiable_collection.dart';
+^
+'package:polymer/builder.dart': error: line 87 pos 1: library handler failed
+import 'package:args/args.dart';
+^
+'file:///C:/Users/CHANRO3/dart/etude/build.dart': error: line 1 pos 1: library handler failed
+import 'package:polymer/builder.dart';
+^
+build.dart finished [840 ms]
+
+---
+build.dart --machine --changed=pubspec.lock
+
+build.dart finished [1360 ms]
+
+---
+build.dart --machine --changed=pubspec.lock
+
+build.dart finished [1510 ms]
+
+---
+build.dart --machine --changed=pubspec.yaml
+
+build.dart finished [1380 ms]
+
+---
+build.dart --machine --changed=pubspec.lock
+
+build.dart finished [1370 ms]
+
+---
+build.dart --machine --changed=pubspec.yaml
+
+build.dart finished [1390 ms]
+
+---
+build.dart --machine --removed=build\css\960.css --removed=build\css\bootstrap.css --removed=build\css\bootstra...
+
+build.dart finished [1330 ms]
+
+---
+build.dart --machine --changed=pubspec.lock
+
+build.dart finished [1340 ms]
+
+---
+build.dart --machine --changed=pubspec.yaml
+
+build.dart finished [1320 ms]
+
+---
+build.dart --machine --changed=pubspec.lock
+
+build.dart finished [1300 ms]
+
+---
+build.dart --machine --full
+
+build.dart finished [1396 ms]
+
+---
+build.dart --machine --changed=web\dartscripts\pages\dry.dart
+
+build.dart finished [1371 ms]
+
+---
+build.dart --machine --changed=web\dartscripts\pages\dry.dart
+
+build.dart finished [1351 ms]
+
+---
+build.dart --machine --changed=pubspec.yaml
+
+build.dart finished [1375 ms]
+
+---
+build.dart --machine --changed=pubspec.yaml
+
+build.dart finished [1360 ms]
+
+---
+build.dart --machine --changed=pubspec.yaml
+Unable to open file: C:\Users\CHANRO3\dart\etude\packages\polymer\builder.dart'file:///C:/Users/CHANRO3/dart/etude/build.dart': error: line 1 pos 1: library handler failed
+import 'package:polymer/builder.dart';
+^
+build.dart finished [150 ms]
+
+---
+build.dart --machine --changed=pubspec.yaml
+Unable to open file: C:\Users\CHANRO3\dart\etude\packages\polymer\builder.dart'file:///C:/Users/CHANRO3/dart/etude/build.dart': error: line 1 pos 1: library handler failed
+import 'package:polymer/builder.dart';
+^
+build.dart finished [162 ms]
+
+---
+build.dart --machine --changed=pubspec.lock
+warning :5381:15: expected :, but found {
+@-ms-viewport {
+              ^
+warning :5382:22: expected {, but found ;
+  width: device-width;
+                     ^
+warning :5385:3: expected } after ruleset for @media
+  @-ms-viewport {
+  ^
+warning :5385:17: expected :, but found {
+  @-ms-viewport {
+                ^
+warning :5386:12: premature end of file unknown CSS
+    width: 320px;
+           ^^^
+Total time spent on web/dry.html                             -- 1183 ms
+warning :5381:15: expected :, but found {
+@-ms-viewport {
+              ^
+warning :5382:22: expected {, but found ;
+  width: device-width;
+                     ^
+warning :5385:3: expected } after ruleset for @media
+  @-ms-viewport {
+  ^
+warning :5385:17: expected :, but found {
+  @-ms-viewport {
+                ^
+warning :5386:12: premature end of file unknown CSS
+    width: 320px;
+           ^^^
+Total time spent on web/md_of_rules.html                     -- 360 ms
+warning :5381:15: expected :, but found {
+@-ms-viewport {
+              ^
+warning :5382:22: expected {, but found ;
+  width: device-width;
+                     ^
+warning :5385:3: expected } after ruleset for @media
+  @-ms-viewport {
+  ^
+warning :5385:17: expected :, but found {
+  @-ms-viewport {
+                ^
+warning :5386:12: premature end of file unknown CSS
+    width: 320px;
+           ^^^
+Total time spent on web/matrix_of_rules.html                 -- 207 ms
+Total time                                                   -- 1777 ms
+build.dart finished [2087 ms]
+
+---
+build.dart --machine --changed=build\css\960.css --changed=build\css\bootstrap.css --changed=build\css\bootstra...
+warning :5381:15: expected :, but found {
+@-ms-viewport {
+              ^
+warning :5382:22: expected {, but found ;
+  width: device-width;
+                     ^
+warning :5385:3: expected } after ruleset for @media
+  @-ms-viewport {
+  ^
+warning :5385:17: expected :, but found {
+  @-ms-viewport {
+                ^
+warning :5386:12: premature end of file unknown CSS
+    width: 320px;
+           ^^^
+Total time spent on web/dry.html                             -- 1120 ms
+warning :5381:15: expected :, but found {
+@-ms-viewport {
+              ^
+warning :5382:22: expected {, but found ;
+  width: device-width;
+                     ^
+warning :5385:3: expected } after ruleset for @media
+  @-ms-viewport {
+  ^
+warning :5385:17: expected :, but found {
+  @-ms-viewport {
+                ^
+warning :5386:12: premature end of file unknown CSS
+    width: 320px;
+           ^^^
+Total time spent on web/md_of_rules.html                     -- 350 ms
+warning :5381:15: expected :, but found {
+@-ms-viewport {
+              ^
+warning :5382:22: expected {, but found ;
+  width: device-width;
+                     ^
+warning :5385:3: expected } after ruleset for @media
+  @-ms-viewport {
+  ^
+warning :5385:17: expected :, but found {
+  @-ms-viewport {
+                ^
+warning :5386:12: premature end of file unknown CSS
+    width: 320px;
+           ^^^
+Total time spent on web/matrix_of_rules.html                 -- 190 ms
+Total time                                                   -- 1690 ms
+build.dart finished [2010 ms]
+
+---
+build.dart --machine --changed=web\dartscripts\pages\dry.dart
+warning :5381:15: expected :, but found {
+@-ms-viewport {
+              ^
+warning :5382:22: expected {, but found ;
+  width: device-width;
+                     ^
+warning :5385:3: expected } after ruleset for @media
+  @-ms-viewport {
+  ^
+warning :5385:17: expected :, but found {
+  @-ms-viewport {
+                ^
+warning :5386:12: premature end of file unknown CSS
+    width: 320px;
+           ^^^
+Total time spent on web/dry.html                             -- 1140 ms
+warning :5381:15: expected :, but found {
+@-ms-viewport {
+              ^
+warning :5382:22: expected {, but found ;
+  width: device-width;
+                     ^
+warning :5385:3: expected } after ruleset for @media
+  @-ms-viewport {
+  ^
+warning :5385:17: expected :, but found {
+  @-ms-viewport {
+                ^
+warning :5386:12: premature end of file unknown CSS
+    width: 320px;
+           ^^^
+Total time spent on web/md_of_rules.html                     -- 360 ms
+warning :5381:15: expected :, but found {
+@-ms-viewport {
+              ^
+warning :5382:22: expected {, but found ;
+  width: device-width;
+                     ^
+warning :5385:3: expected } after ruleset for @media
+  @-ms-viewport {
+  ^
+warning :5385:17: expected :, but found {
+  @-ms-viewport {
+                ^
+warning :5386:12: premature end of file unknown CSS
+    width: 320px;
+           ^^^
+Total time spent on web/matrix_of_rules.html                 -- 210 ms
+Total time                                                   -- 1730 ms
+build.dart finished [2060 ms]
+
+---
+build.dart --machine --changed=web\dartscripts\pages\dry.dart
+warning :5381:15: expected :, but found {
+@-ms-viewport {
+              ^
+warning :5382:22: expected {, but found ;
+  width: device-width;
+                     ^
+warning :5385:3: expected } after ruleset for @media
+  @-ms-viewport {
+  ^
+warning :5385:17: expected :, but found {
+  @-ms-viewport {
+                ^
+warning :5386:12: premature end of file unknown CSS
+    width: 320px;
+           ^^^
+Total time spent on web/dry.html                             -- 1160 ms
+warning :5381:15: expected :, but found {
+@-ms-viewport {
+              ^
+warning :5382:22: expected {, but found ;
+  width: device-width;
+                     ^
+warning :5385:3: expected } after ruleset for @media
+  @-ms-viewport {
+  ^
+warning :5385:17: expected :, but found {
+  @-ms-viewport {
+                ^
+warning :5386:12: premature end of file unknown CSS
+    width: 320px;
+           ^^^
+Total time spent on web/md_of_rules.html                     -- 350 ms
+warning :5381:15: expected :, but found {
+@-ms-viewport {
+              ^
+warning :5382:22: expected {, but found ;
+  width: device-width;
+                     ^
+warning :5385:3: expected } after ruleset for @media
+  @-ms-viewport {
+  ^
+warning :5385:17: expected :, but found {
+  @-ms-viewport {
+                ^
+warning :5386:12: premature end of file unknown CSS
+    width: 320px;
+           ^^^
+Total time spent on web/matrix_of_rules.html                 -- 200 ms
+Total time                                                   -- 1740 ms
+build.dart finished [2060 ms]
+
+---
+build.dart --machine --changed=web\dartscripts\pages\dry.dart
+warning :5381:15: expected :, but found {
+@-ms-viewport {
+              ^
+warning :5382:22: expected {, but found ;
+  width: device-width;
+                     ^
+warning :5385:3: expected } after ruleset for @media
+  @-ms-viewport {
+  ^
+warning :5385:17: expected :, but found {
+  @-ms-viewport {
+                ^
+warning :5386:12: premature end of file unknown CSS
+    width: 320px;
+           ^^^
+Total time spent on web/dry.html                             -- 1162 ms
+warning :5381:15: expected :, but found {
+@-ms-viewport {
+              ^
+warning :5382:22: expected {, but found ;
+  width: device-width;
+                     ^
+warning :5385:3: expected } after ruleset for @media
+  @-ms-viewport {
+  ^
+warning :5385:17: expected :, but found {
+  @-ms-viewport {
+                ^
+warning :5386:12: premature end of file unknown CSS
+    width: 320px;
+           ^^^
+Total time spent on web/md_of_rules.html                     -- 362 ms
+warning :5381:15: expected :, but found {
+@-ms-viewport {
+              ^
+warning :5382:22: expected {, but found ;
+  width: device-width;
+                     ^
+warning :5385:3: expected } after ruleset for @media
+  @-ms-viewport {
+  ^
+warning :5385:17: expected :, but found {
+  @-ms-viewport {
+                ^
+warning :5386:12: premature end of file unknown CSS
+    width: 320px;
+           ^^^
+Total time spent on web/matrix_of_rules.html                 -- 210 ms
+Total time                                                   -- 1764 ms
+build.dart finished [2094 ms]
+
+---
+build.dart --machine --changed=web\dartscripts\pages\dry.dart
+warning :5381:15: expected :, but found {
+@-ms-viewport {
+              ^
+warning :5382:22: expected {, but found ;
+  width: device-width;
+                     ^
+warning :5385:3: expected } after ruleset for @media
+  @-ms-viewport {
+  ^
+warning :5385:17: expected :, but found {
+  @-ms-viewport {
+                ^
+warning :5386:12: premature end of file unknown CSS
+    width: 320px;
+           ^^^
+Total time spent on web/dry.html                             -- 1205 ms
+warning :5381:15: expected :, but found {
+@-ms-viewport {
+              ^
+warning :5382:22: expected {, but found ;
+  width: device-width;
+                     ^
+warning :5385:3: expected } after ruleset for @media
+  @-ms-viewport {
+  ^
+warning :5385:17: expected :, but found {
+  @-ms-viewport {
+                ^
+warning :5386:12: premature end of file unknown CSS
+    width: 320px;
+           ^^^
+Total time spent on web/md_of_rules.html                     -- 362 ms
+warning :5381:15: expected :, but found {
+@-ms-viewport {
+              ^
+warning :5382:22: expected {, but found ;
+  width: device-width;
+                     ^
+warning :5385:3: expected } after ruleset for @media
+  @-ms-viewport {
+  ^
+warning :5385:17: expected :, but found {
+  @-ms-viewport {
+                ^
+warning :5386:12: premature end of file unknown CSS
+    width: 320px;
+           ^^^
+Total time spent on web/matrix_of_rules.html                 -- 200 ms
+Total time                                                   -- 1788 ms
+build.dart finished [2118 ms]
+
+---
+build.dart --machine --changed=web\dartscripts\pages\dry.dart
+warning :5381:15: expected :, but found {
+@-ms-viewport {
+              ^
+warning :5382:22: expected {, but found ;
+  width: device-width;
+                     ^
+warning :5385:3: expected } after ruleset for @media
+  @-ms-viewport {
+  ^
+warning :5385:17: expected :, but found {
+  @-ms-viewport {
+                ^
+warning :5386:12: premature end of file unknown CSS
+    width: 320px;
+           ^^^
+Total time spent on web/dry.html                             -- 1120 ms
+warning :5381:15: expected :, but found {
+@-ms-viewport {
+              ^
+warning :5382:22: expected {, but found ;
+  width: device-width;
+                     ^
+warning :5385:3: expected } after ruleset for @media
+  @-ms-viewport {
+  ^
+warning :5385:17: expected :, but found {
+  @-ms-viewport {
+                ^
+warning :5386:12: premature end of file unknown CSS
+    width: 320px;
+           ^^^
+Total time spent on web/md_of_rules.html                     -- 350 ms
+warning :5381:15: expected :, but found {
+@-ms-viewport {
+              ^
+warning :5382:22: expected {, but found ;
+  width: device-width;
+                     ^
+warning :5385:3: expected } after ruleset for @media
+  @-ms-viewport {
+  ^
+warning :5385:17: expected :, but found {
+  @-ms-viewport {
+                ^
+warning :5386:12: premature end of file unknown CSS
+    width: 320px;
+           ^^^
+Total time spent on web/matrix_of_rules.html                 -- 190 ms
+Total time                                                   -- 1690 ms
+build.dart finished [1990 ms]
+
+---
+build.dart --machine --changed=web\dartscripts\pages\dry.dart
+warning :5381:15: expected :, but found {
+@-ms-viewport {
+              ^
+warning :5382:22: expected {, but found ;
+  width: device-width;
+                     ^
+warning :5385:3: expected } after ruleset for @media
+  @-ms-viewport {
+  ^
+warning :5385:17: expected :, but found {
+  @-ms-viewport {
+                ^
+warning :5386:12: premature end of file unknown CSS
+    width: 320px;
+           ^^^
+Total time spent on web/dry.html                             -- 1180 ms
+warning :5381:15: expected :, but found {
+@-ms-viewport {
+              ^
+warning :5382:22: expected {, but found ;
+  width: device-width;
+                     ^
+warning :5385:3: expected } after ruleset for @media
+  @-ms-viewport {
+  ^
+warning :5385:17: expected :, but found {
+  @-ms-viewport {
+                ^
+warning :5386:12: premature end of file unknown CSS
+    width: 320px;
+           ^^^
+Total time spent on web/md_of_rules.html                     -- 350 ms
+warning :5381:15: expected :, but found {
+@-ms-viewport {
+              ^
+warning :5382:22: expected {, but found ;
+  width: device-width;
+                     ^
+warning :5385:3: expected } after ruleset for @media
+  @-ms-viewport {
+  ^
+warning :5385:17: expected :, but found {
+  @-ms-viewport {
+                ^
+warning :5386:12: premature end of file unknown CSS
+    width: 320px;
+           ^^^
+Total time spent on web/matrix_of_rules.html                 -- 180 ms
+Total time                                                   -- 1750 ms
+build.dart finished [2070 ms]
+
+---
+build.dart --machine --removed=build\css\960.css --removed=build\css\bootstrap.css --removed=build\css\bootstra...
+[31merror [0munable to open file "clean"
+Total time spent on clean                                    -- [32m 14 ms[0m
+[31merror [0munable to open file "clean"
+Total time spent on clean                                    -- [32m  0 ms[0m
+[31merror [0munable to open file "clean"
+Total time spent on clean                                    -- [32m  0 ms[0m
+Total time                                                   --  44 ms
+build.dart finished [365 ms]
+
+---
+build.dart --machine --changed=build\css\960.css --changed=build\css\bootstrap.css --changed=build\css\bootstra...
+[31merror [0munable to open file "clean"
+Total time spent on clean                                    -- [32m 14 ms[0m
+[31merror [0munable to open file "clean"
+Total time spent on clean                                    -- [32m  1 ms[0m
+[31merror [0munable to open file "clean"
+Total time spent on clean                                    -- [32m  0 ms[0m
+Total time                                                   --  45 ms
+build.dart finished [368 ms]
+
+---
+build.dart --machine --removed=build\css\960.css --removed=build\css\bootstrap.css --removed=build\css\bootstra...
+[31merror [0munable to open file "clean"
+Total time spent on clean                                    -- [32m 14 ms[0m
+[31merror [0munable to open file "clean"
+Total time spent on clean                                    -- [32m  1 ms[0m
+[31merror [0munable to open file "clean"
+Total time spent on clean                                    -- [32m  0 ms[0m
+Total time                                                   --  45 ms
+build.dart finished [365 ms]
+
+---
+build.dart --machine --removed=build3.dart
+[31merror [0munable to open file "clean"
+Total time spent on clean                                    -- [32m 14 ms[0m
+[31merror [0munable to open file "clean"
+Total time spent on clean                                    -- [32m  1 ms[0m
+[31merror [0munable to open file "clean"
+Total time spent on clean                                    -- [32m  1 ms[0m
+Total time                                                   --  43 ms
+build.dart finished [362 ms]
+
+---
+build.dart --machine --changed=web\dartscripts\pages\md_of_rules.dart.js --changed=web\dartscripts\pages\md_of_...
+warning :5381:15: expected :, but found {
+@-ms-viewport {
+              ^
+warning :5382:22: expected {, but found ;
+  width: device-width;
+                     ^
+warning :5385:3: expected } after ruleset for @media
+  @-ms-viewport {
+  ^
+warning :5385:17: expected :, but found {
+  @-ms-viewport {
+                ^
+warning :5386:12: premature end of file unknown CSS
+    width: 320px;
+           ^^^
+Total time spent on web/dry.html                             -- 1235 ms
+warning :5381:15: expected :, but found {
+@-ms-viewport {
+              ^
+warning :5382:22: expected {, but found ;
+  width: device-width;
+                     ^
+warning :5385:3: expected } after ruleset for @media
+  @-ms-viewport {
+  ^
+warning :5385:17: expected :, but found {
+  @-ms-viewport {
+                ^
+warning :5386:12: premature end of file unknown CSS
+    width: 320px;
+           ^^^
+Total time spent on web/md_of_rules.html                     -- 378 ms
+warning :5381:15: expected :, but found {
+@-ms-viewport {
+              ^
+warning :5382:22: expected {, but found ;
+  width: device-width;
+                     ^
+warning :5385:3: expected } after ruleset for @media
+  @-ms-viewport {
+  ^
+warning :5385:17: expected :, but found {
+  @-ms-viewport {
+                ^
+warning :5386:12: premature end of file unknown CSS
+    width: 320px;
+           ^^^
+Total time spent on web/matrix_of_rules.html                 -- 211 ms
+Total time                                                   -- 1853 ms
+build.dart finished [2201 ms]
+
+---
+build.dart --machine --changed=web\dartscripts\pages\matrix_of_rules.dart.js --changed=web\dartscripts\pages\ma...
+warning :5381:15: expected :, but found {
+@-ms-viewport {
+              ^
+warning :5382:22: expected {, but found ;
+  width: device-width;
+                     ^
+warning :5385:3: expected } after ruleset for @media
+  @-ms-viewport {
+  ^
+warning :5385:17: expected :, but found {
+  @-ms-viewport {
+                ^
+warning :5386:12: premature end of file unknown CSS
+    width: 320px;
+           ^^^
+Total time spent on web/dry.html                             -- 1181 ms
+warning :5381:15: expected :, but found {
+@-ms-viewport {
+              ^
+warning :5382:22: expected {, but found ;
+  width: device-width;
+                     ^
+warning :5385:3: expected } after ruleset for @media
+  @-ms-viewport {
+  ^
+warning :5385:17: expected :, but found {
+  @-ms-viewport {
+                ^
+warning :5386:12: premature end of file unknown CSS
+    width: 320px;
+           ^^^
+Total time spent on web/md_of_rules.html                     -- 367 ms
+warning :5381:15: expected :, but found {
+@-ms-viewport {
+              ^
+warning :5382:22: expected {, but found ;
+  width: device-width;
+                     ^
+warning :5385:3: expected } after ruleset for @media
+  @-ms-viewport {
+  ^
+warning :5385:17: expected :, but found {
+  @-ms-viewport {
+                ^
+warning :5386:12: premature end of file unknown CSS
+    width: 320px;
+           ^^^
+Total time spent on web/matrix_of_rules.html                 -- 198 ms
+Total time                                                   -- 1776 ms
+build.dart finished [2101 ms]
+
+---
+build.dart --machine --changed=web\dartscripts\pages\dry.dart.js --changed=web\dartscripts\pages\dry.dart.js.de...
+warning :5381:15: expected :, but found {
+@-ms-viewport {
+              ^
+warning :5382:22: expected {, but found ;
+  width: device-width;
+                     ^
+warning :5385:3: expected } after ruleset for @media
+  @-ms-viewport {
+  ^
+warning :5385:17: expected :, but found {
+  @-ms-viewport {
+                ^
+warning :5386:12: premature end of file unknown CSS
+    width: 320px;
+           ^^^
+Total time spent on web/dry.html                             -- 1167 ms
+warning :5381:15: expected :, but found {
+@-ms-viewport {
+              ^
+warning :5382:22: expected {, but found ;
+  width: device-width;
+                     ^
+warning :5385:3: expected } after ruleset for @media
+  @-ms-viewport {
+  ^
+warning :5385:17: expected :, but found {
+  @-ms-viewport {
+                ^
+warning :5386:12: premature end of file unknown CSS
+    width: 320px;
+           ^^^
+Total time spent on web/md_of_rules.html                     -- 355 ms
+warning :5381:15: expected :, but found {
+@-ms-viewport {
+              ^
+warning :5382:22: expected {, but found ;
+  width: device-width;
+                     ^
+warning :5385:3: expected } after ruleset for @media
+  @-ms-viewport {
+  ^
+warning :5385:17: expected :, but found {
+  @-ms-viewport {
+                ^
+warning :5386:12: premature end of file unknown CSS
+    width: 320px;
+           ^^^
+Total time spent on web/matrix_of_rules.html                 -- 221 ms
+Total time                                                   -- 1773 ms
+build.dart finished [2117 ms]
+

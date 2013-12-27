@@ -1,0 +1,17 @@
+#div-matrix {
+  /*height:750px;*/
+}
+
+#description {
+  display: block;
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 1em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  font-size: 14px;
+  line-height: 22px;
+  color: #333;
+}
+.nowrap {
+  white-space: pre;
+ }
