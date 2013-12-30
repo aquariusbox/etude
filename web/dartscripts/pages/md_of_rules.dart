@@ -229,13 +229,9 @@ class Matrix extends View{
 void jsFixTableHeader(String selector, int numOfRec){
   var height = (numOfRec+1) * 40 > MATRIX_HEIGHT ? MATRIX_HEIGHT : ((numOfRec+1) * 40) + 10;
   // Need footer if height of table LT matrix height.
-  //var param = js.map({'footer': height >= MATRIX_HEIGHT, 'cloneHeadToFoot': true,'height':height,'fixedColumns' : 0});
   var param = new javascript.JsObject.jsify({'footer': height >= MATRIX_HEIGHT, 'cloneHeadToFoot': true,'height':height,'fixedColumns' : 0});
-  //js.context.jQuery(selector).fixedHeaderTable(param);
   var jquery = new javascript.JsObject(javascript.context['jQuery'], [selector]);
   jquery.callMethod('fixedHeaderTable', [param]);
-  
-  
 }
 
 /*
@@ -244,7 +240,6 @@ void jsFixTableHeader(String selector, int numOfRec){
 void fetchCustomization(){
   loading(true);
   var url = getBaseUrl(REMOTE_SERVICE)+getParamsString({"opt":"customization","tp":tps.value,"ds":datasources.value,"fmt":formats.value,"cvt":'Customization',"seg":'Customization',"snum":'Rules',"case":'*'});
-  //print(url);
   var request = HttpRequest.getString(url).then((jstr){
       metas = json.parse(jstr);
       // Remove previous result

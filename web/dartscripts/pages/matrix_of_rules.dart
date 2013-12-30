@@ -1,11 +1,10 @@
 import 'dart:html';
 import 'dart:async';
-import 'package:js/js.dart' as js;
+import 'dart:js' as javascript;
+import 'package:json/json.dart' as json;
 import '../elements/elements.dart';
 import '../network/http.dart';
 import '../javascript/prettyprint.dart' as pp show prettyPrint;
-import 'dart:js' as javascript;
-import 'package:json/json.dart' as json;
 
 const REMOTE_SERVICE = '/dry/service-rules-usage';
 const MATRIX_HEADING = 'Rules / PMT';
@@ -18,6 +17,7 @@ SelectElement segments = new SelectElement();
 SelectElement fields = new SelectElement();
 SelectElement cases = new SelectElement();
 ButtonElement btnrefresh = new ButtonElement();
+
 // Meta data of rules
 Map metas;
 
@@ -99,7 +99,7 @@ void casesOnChange(){
 
 
 /*
- * 
+ * Bind event listeners to elements
  */
 void bind(){
   datasources.onChange.listen((event) =>
@@ -124,7 +124,9 @@ void bind(){
       fetchMatrix()
   );
 }
-
+/*
+ * Get option values from remote server. return Future which contains current selected value.
+ */
 Future<String> fetchOptions(Map<String,String> parameter, SelectElement selectElm, String selectedValue, [String wildcard]){
   var completer = new Completer();
   var url = getBaseUrl(REMOTE_SERVICE)+getParamsString(parameter);
@@ -165,9 +167,11 @@ void fetchMatrix(){
     
     add2Dom(matrix, parent);
     
+    // Call native javascript to build an table with fix column.
     jsFixTableHeader("#matrix",  jmap['detail'].length);
     
     loading(false);
+    
     fetchDefinition();
   }); 
 }
@@ -291,9 +295,7 @@ class Matrix extends View{
 void jsFixTableHeader(String selector, int numOfRec){
   var height = (numOfRec+1) * 40 > MATRIX_HEIGHT ? MATRIX_HEIGHT : ((numOfRec+1) * 40) + 10;
   // Need footer if height of table LT matrix height.
-  //var param = js.map({'footer': height >= MATRIX_HEIGHT, 'cloneHeadToFoot': true,'height':height,'fixedColumns' : 1});
   var param = new javascript.JsObject.jsify({'footer': height >= MATRIX_HEIGHT, 'cloneHeadToFoot': true,'height':height,'fixedColumns' : 1});
-  //js.context.jQuery(selector).fixedHeaderTable(param);
   var jquery = new javascript.JsObject(javascript.context['jQuery'], [selector]);
   jquery.callMethod('fixedHeaderTable', [param]);
 }
