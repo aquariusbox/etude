@@ -1,8 +1,7 @@
 import 'dart:html';
-//import 'package:google_maps/google_maps.dart';
 import 'dart:math' as math;
-import '../elements/elements.dart';
 import 'dart:js' show context, JsObject;
+import '../elements/elements.dart';
 
 void main() {
   
@@ -14,19 +13,6 @@ void main() {
   // Embed google map 
   embedGoogleMap(); 
 }
-
-//void embedGoogleMap(){
-//  var rng = new math.Random();
-//  final mapOptions = new MapOptions()
-//      ..zoom = (rng.nextInt(9) + 5)
-//      ..disableDoubleClickZoom = true
-//      ..center = new LatLng(randomInRange(-85,85,3), randomInRange(-180,180,3))
-//      ..mapTypeId = MapTypeId.TERRAIN
-//      ;
-//    mapOptions.disableDefaultUI = true;
-//    mapOptions.zoomControl = false;
-//    final map = new GMap(querySelector("#map_canvas"), mapOptions);
-//}
 
 void embedGoogleMap(){
   
