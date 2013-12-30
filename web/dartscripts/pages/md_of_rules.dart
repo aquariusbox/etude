@@ -220,7 +220,8 @@ class Matrix extends View{
 void jsFixTableHeader(String selector, int numOfRec){
   var height = (numOfRec+1) * 40 > MATRIX_HEIGHT ? MATRIX_HEIGHT : ((numOfRec+1) * 40) + 10;
   // Need footer if height of table LT matrix height.
-  var param = js.map({'footer': height >= MATRIX_HEIGHT, 'cloneHeadToFoot': true,'height':height,'fixedColumns' : 0});
+  //var param = js.map({'footer': height >= MATRIX_HEIGHT, 'cloneHeadToFoot': true,'height':height,'fixedColumns' : 0});
+  var param = new javascript.JsObject.jsify({'footer': height >= MATRIX_HEIGHT, 'cloneHeadToFoot': true,'height':height,'fixedColumns' : 0});
   //js.context.jQuery(selector).fixedHeaderTable(param);
   var jquery = new javascript.JsObject(javascript.context['jQuery'], [selector]);
   jquery.callMethod('fixedHeaderTable', [param]);
