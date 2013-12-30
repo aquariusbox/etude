@@ -1,16 +1,18 @@
 import 'dart:html';
 import 'dart:async';
+import 'dart:js' as javascript;
 import 'package:json/json.dart' as json;
-import 'package:js/js.dart' as js;
 import '../elements/elements.dart';
 import '../network/http.dart';
-import 'dart:js' as javascript;
 import '../javascript/prettyprint.dart' as pp show prettyPrint;
 
+// Servlet service path
 const REMOTE_SERVICE = '/dry/service-rules-usage';
+// Height of matrix table
 const int MATRIX_HEIGHT = 1400;
+// Heading of matrix table
 const MATRIX_HEADING = 'Rules / PMT';
-
+// UI elements
 SelectElement datasources = new SelectElement();
 SelectElement formats = new SelectElement();
 SelectElement tps = new SelectElement();
@@ -25,37 +27,40 @@ main(){
   add2Dom(navigation, querySelector("#x-navigation"));
   navigation.currentActive(navigation.actives["rbase"]);
   
+  // Download option value from remote server and add to select elements
   initOptions();
   
-  // Prepare button
+  // Prepare refresh button
   btnrefresh..id = "btn-refresh"
       ..text = "Refresh"
       ..classes.add('btn btn-primary');
   querySelector('#x-btnrefresh').append(btnrefresh); 
   
-  // Add selection
+  // Add bootstrap CSS to selections
   datasources.classes.add("form-control");
   formats.classes.add("form-control");
   tps.classes.add("form-control");
   
-  
+  // Add selections to HTML
   querySelector("#x-datasource").nodes.add(datasources);
   querySelector("#x-formats").nodes.add(formats);
   querySelector("#x-tps").nodes.add(tps);
   
-// Bind event listeners
+  // Bind event listeners
   bind();
 }
 
 void initOptions(){
-  // Sequence download options from remote
+  // Download options from remote server.
   fetchOptions({"opt":"datasources"}, datasources, "b2bowner@stg")
   .then((datasource) => fetchOptions({"opt":"formats","ds":datasource}, formats, "CTCS2X/315")
       .then((format) => fetchOptions({"opt":"md_tps","ds":datasource,"fmt":format}, tps, "")
           .then((e)=>fetchMd())));
   
 }
-
+/*
+ * Bind event listeners. 
+ */
 void bind(){
   datasources.onChange.listen((event) =>datasourceOnChange());
   formats.onChange.listen((event) =>formatsOnChange());
@@ -77,7 +82,9 @@ void formatsOnChange(){
 void tpsOnChange(){
   fetchMd();
 }
-
+/*
+ * Get option values from remote server. return Future which contains current selected value.
+ */
 Future<String> fetchOptions(Map<String,String> parameter, SelectElement selectElm, String selectedValue, [String wildcard]){
   var completer = new Completer();
   var url = getBaseUrl(REMOTE_SERVICE)+getParamsString(parameter);
@@ -93,6 +100,7 @@ Future<String> fetchOptions(Map<String,String> parameter, SelectElement selectEl
       }
       selectElm.children.add(new OptionElement(data: option, value: option, selected: selectedValue == option));
     }
+    // Assign current selected value
     completer.complete(selectElm.value);
   });
   return completer.future;
@@ -116,6 +124,7 @@ void fetchMd(){
     
     add2Dom(matrix, parent);
     
+    // Call native javascript to build an table with fix column.
     jsFixTableHeader("#matrix",  jmap.length - 1);
     
     // Pretty print code.
@@ -126,7 +135,7 @@ void fetchMd(){
   });
 }
 
-/**
+/*
  * Matrix table of rules usage.
  */
 class Matrix extends View{
@@ -163,7 +172,7 @@ class Matrix extends View{
     return anchor;
   }
   
-  /**
+  /*
    * Assign value into table cell.
    */
   void bindData(Map jmap, List<String> headings){
@@ -245,17 +254,6 @@ void fetchCustomization(){
           div.remove();
         }
       }
-  
-       
-//      if(querySelectorAll('#x-heading').length > 1)
-//        querySelectorAll('#x-heading').forEach((div) => div.remove());
-
-      
-//      if(metas.length > 0 && querySelectorAll('#x-heading').length < 2){
-//        HeadingElement  h4 = new HeadingElement.h4();
-//        h4.text = 'This are customized logics used by this PMT.';
-//        querySelector('#x-heading').children.add(h4);
-//      }
       
       for(String fingerprint in metas.keys){
         var rule = metas[fingerprint]['rule'];
