@@ -7,13 +7,8 @@ class Navigation extends View {
   DivElement _navbarHeader;
   DivElement _navbarCollapse;
   Map<String, String> actives = {"home":"t-home","rbase":"t-rbase"};
-<<<<<<< HEAD
-  Map<String, String> hrefs = {"home":"dry.html","md_page_of_rulebase":"md_of_rules.html","matrix_page_of_rulebase":"matrix_of_rules.html","update_rules_detail":"update_rules_detail.html"};
-  Map<String, String> texts = {"home":"Home","md_page_of_rulebase":"Mapping Document","matrix_page_of_rulebase":"Matrix of rules","update_rules_detail":"Edit Rule"};
-=======
   Map<String, String> hrefs = {"home":"dry.html","md_page_of_rulebase":"md_of_rules.html","matrix_page_of_rulebase":"matrix_of_rules.html","md_page_of_rulebase_blbc":"blbc_md_of_rules.html","matrix_page_of_rulebase_blbc":"blbc_matrix_of_rules.html"};
   Map<String, String> texts = {"home":"Home","md_page_of_rulebase":"Mapping Document - CT","matrix_page_of_rulebase":"Matrix of rules - CT","md_page_of_rulebase_blbc":"Mapping Document - BLBC","matrix_page_of_rulebase_blbc":"Matrix of rules - BLBC"};
->>>>>>> cf67c472752735f0865abf51d353e0f31368bc0d
   
   Navigation(){
     _navbar = new Element.div();
@@ -76,14 +71,9 @@ class Navigation extends View {
 
     addPageAnchor(dropdownRbase, "md_page_of_rulebase_blbc");
     addPageAnchor(dropdownRbase, "md_page_of_rulebase");
-<<<<<<< HEAD
-    addPageAnchor(dropdownRbase, "matrix_page_of_rulebase");   
-    addPageAnchor(dropdownRbase, "update_rules_detail");   
-=======
     addPageAnchor(dropdownRbase, "matrix_page_of_rulebase_blbc");
     addPageAnchor(dropdownRbase, "matrix_page_of_rulebase");
->>>>>>> cf67c472752735f0865abf51d353e0f31368bc0d
-    
+  
     // Navbar Right
     UListElement ulNavbarRight = new UListElement();
     ulNavbarRight.classes.add("nav navbar-nav navbar-right");
