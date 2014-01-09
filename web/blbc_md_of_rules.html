@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <title>Dry</title>
+      <link rel="stylesheet" href="css/dry.css">
+      <link rel="stylesheet" href="css/bootstrap.css">
+      <link rel="stylesheet" href="css/custom_ui.css">
+      <link rel="stylesheet" href="css/md_of_rules.css">
+      <link href="css/960.css" rel="stylesheet" media="screen" />
+      <link href="css/defaultTheme.css" rel="stylesheet" media="screen" />
+      <link href="css/myTheme.css" rel="stylesheet" media="screen" />
+      <link href="css/prettify.css" type="text/css" rel="stylesheet" />
+   </head>
+   <body>
+      <div id="x-navigation" class="container"></div>
+      <div class="container">
+         <div class="row">
+            <div class="col-md-2">
+               Database
+            </div>
+            <div class="col-md-2">
+               Format
+            </div>
+            <div class="col-md-2">
+               TP
+            </div>   
+            <div class="col-md-2">
+               &nbsp;
+            </div>                      
+         </div>
+         <div class="row">
+            <div id="x-datasource" class="col-md-2"></div>
+            <div id="x-formats" class="col-md-2"></div>
+            <div id="x-tps" class="col-md-2"></div> 
+            <div id="x-btnrefresh" class="col-md-2"></div>                           
+         </div>
+      </div>
+      <div class="container"><h5></h5></div>
+      <!-- end container-->
+      <div id="x-matrix" class="container"></div>
+      <div id="x-heading" class="container"></div>
+      
+      <!-- JQuery -->
+      <script src="js/jquery.js"></script>
+      <!-- Latest compiled and minified JavaScript -->
+      <script src="js/bootstrap.min.js"></script>  
+      <!-- fix header table -->
+      <script src="js/jquery.fixedheadertable.min.js"></script>
+      <!-- google prettify print -->
+      <script type="text/javascript" src="js/prettify.js"></script>
+      
+      <script type="application/dart" src="dartscripts/pages/blbc_md_of_rules.dart"></script>      
+      <script src="packages/browser/dart.js"></script>
+      <script src="packages/browser/interop.js"></script>   
+   </body>
+</html>
