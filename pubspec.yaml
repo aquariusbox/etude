@@ -5,3 +5,4 @@ dependencies:
   google_maps: any
   js: any
   json: any
+  json_object: any

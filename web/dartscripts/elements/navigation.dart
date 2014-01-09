@@ -7,8 +7,8 @@ class Navigation extends View {
   DivElement _navbarHeader;
   DivElement _navbarCollapse;
   Map<String, String> actives = {"home":"t-home","rbase":"t-rbase"};
-  Map<String, String> hrefs = {"home":"dry.html","md_page_of_rulebase":"md_of_rules.html","matrix_page_of_rulebase":"matrix_of_rules.html"};
-  Map<String, String> texts = {"home":"Home","md_page_of_rulebase":"Mapping Document","matrix_page_of_rulebase":"Matrix of rules"};
+  Map<String, String> hrefs = {"home":"dry.html","md_page_of_rulebase":"md_of_rules.html","matrix_page_of_rulebase":"matrix_of_rules.html","update_rules_detail":"update_rules_detail.html"};
+  Map<String, String> texts = {"home":"Home","md_page_of_rulebase":"Mapping Document","matrix_page_of_rulebase":"Matrix of rules","update_rules_detail":"Edit Rule"};
   
   Navigation(){
     _navbar = new Element.div();
@@ -71,6 +71,7 @@ class Navigation extends View {
 
     addPageAnchor(dropdownRbase, "md_page_of_rulebase");
     addPageAnchor(dropdownRbase, "matrix_page_of_rulebase");   
+    addPageAnchor(dropdownRbase, "update_rules_detail");   
     
     // Navbar Right
     UListElement ulNavbarRight = new UListElement();
