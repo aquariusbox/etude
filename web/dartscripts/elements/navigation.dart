@@ -7,8 +7,8 @@ class Navigation extends View {
   DivElement _navbarHeader;
   DivElement _navbarCollapse;
   Map<String, String> actives = {"home":"t-home","rbase":"t-rbase"};
-  Map<String, String> hrefs = {"home":"dry.html","md_page_of_rulebase":"md_of_rules.html","matrix_page_of_rulebase":"matrix_of_rules.html"};
-  Map<String, String> texts = {"home":"Home","md_page_of_rulebase":"Mapping Document","matrix_page_of_rulebase":"Matrix of rules"};
+  Map<String, String> hrefs = {"home":"dry.html","md_page_of_rulebase":"md_of_rules.html","matrix_page_of_rulebase":"matrix_of_rules.html","md_page_of_rulebase_blbc":"blbc_md_of_rules.html","matrix_page_of_rulebase_blbc":"blbc_matrix_of_rules.html"};
+  Map<String, String> texts = {"home":"Home","md_page_of_rulebase":"Mapping Document - CT","matrix_page_of_rulebase":"Matrix of rules - CT","md_page_of_rulebase_blbc":"Mapping Document - BLBC","matrix_page_of_rulebase_blbc":"Matrix of rules - BLBC"};
   
   Navigation(){
     _navbar = new Element.div();
@@ -69,8 +69,10 @@ class Navigation extends View {
     UListElement dropdownRbase = new DropdownMenu().create();
     liTRbase.nodes.add(dropdownRbase);
 
+    addPageAnchor(dropdownRbase, "md_page_of_rulebase_blbc");
     addPageAnchor(dropdownRbase, "md_page_of_rulebase");
-    addPageAnchor(dropdownRbase, "matrix_page_of_rulebase");   
+    addPageAnchor(dropdownRbase, "matrix_page_of_rulebase_blbc");
+    addPageAnchor(dropdownRbase, "matrix_page_of_rulebase");
     
     // Navbar Right
     UListElement ulNavbarRight = new UListElement();
