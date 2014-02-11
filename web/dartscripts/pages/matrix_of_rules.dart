@@ -106,7 +106,7 @@ void bind(){
     datasourceOnChange()
   );
   formats.onChange.listen((event) =>
-    datasourceOnChange()
+    formatsOnChange()
   );
   scropes.onChange.listen((event) =>
       scropesOnChange()
